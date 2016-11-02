@@ -28,7 +28,7 @@ Data is delivered to the Eartheos app in [JSON](https://en.wikipedia.org/wiki/JS
 
 A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's main view represents a collection.
 
-```json
+```
 {
 	"metadata": CollectionMetadata, // required
 	"style": LayerStyle,
@@ -41,7 +41,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### CollectionMetadata
 
-```json
+```
 {
 	"name": String, // required
 	"author": String, // required
@@ -56,7 +56,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### CategoryKeyItem
 
-```json
+```
 {
 	"color": String, // required
 	"icon": String, // required
@@ -66,7 +66,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### ValueKeyItem
 
-```json
+```
 {
 	"colors": [String], // required
 	"minTitle": String, // required
@@ -76,7 +76,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### Chart
 
-```json
+```
 {
 	"type": "string", // required
 	"data": { 
@@ -89,7 +89,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerGroup
 
-```json
+```
 {
 	"metadata": LayerGroupMetadata,  // required
 	"style": LayerStyle, 
@@ -99,7 +99,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerGroupMetadata
 
-```json
+```
 {
 	"name": String  // required
 }
@@ -107,7 +107,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### Layer
 
-```json
+```
 {
 	"metadata": LayerMetadata,  // required
 	"style": LayerStyle,  // required
@@ -118,7 +118,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerStyle
 
-```json
+```
 {
 	"color": String,  // required (if scale undefined)
 	"scale": [String] // required (if color undefined)
@@ -127,7 +127,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerMetadata
 
-```json
+```
 {
 	"name": String, // required
 	"unit": String
@@ -136,7 +136,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerPoint
 
-```json
+```
 {
 	"name": String, // required
 	"text": String,
@@ -151,7 +151,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerPointStyle
 
-```json
+```
 {
 	"color": String,
 	"icon": String
@@ -160,7 +160,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerPolygon
 
-```json
+```
 {
 	"name": String, // required
 	"text": String,
@@ -174,7 +174,7 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 ### LayerPolygonStyle
 
-```json
+```
 {
 	"color": String
 }
