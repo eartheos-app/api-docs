@@ -1,0 +1,1373 @@
+{
+  "charts": [
+    {
+      "colors": [
+        "#0286EF",
+        "#CEF3FF"
+      ],
+      "data": {
+        "2010": [
+          33.8,
+          6.8
+        ],
+        "2011": [
+          35.8,
+          6.9
+        ],
+        "2012": [
+          37.8,
+          6.9
+        ],
+        "2013": [
+          39.8,
+          7
+        ],
+        "2014": [
+          41.8,
+          7.1
+        ],
+        "2015": [
+          43.8,
+          7.2
+        ],
+        "2016": [
+          45.7,
+          7.3
+        ],
+        "2017": [
+          47.8,
+          7.4
+        ],
+        "2018": [
+          49.8,
+          7.4
+        ]
+      },
+      "summary": "Description of the graph. Lorem ipsum dolor sit amet, consectetur adipiscing.",
+      "type": "bar"
+    }
+  ],
+  "key": [
+    {
+      "color": "#FC9723",
+      "icon": "fa-amazon",
+      "title": "Amazon Data Center"
+    },
+    {
+      "color": "#3C5A96",
+      "icon": "fa-facebook",
+      "title": "Facebook Data Center"
+    },
+    {
+      "color": "#3EA756",
+      "icon": "fa-google",
+      "title": "Google Data Center"
+    },
+    {
+      "color": "#4C26C0",
+      "icon": "fa-yahoo",
+      "title": "Yahoo Data Center"
+    },
+    {
+      "color": "#49311c",
+      "icon": "fa-diamond",
+      "title": "Conflict Mineral Mine"
+    },
+    {
+      "color": "#D3D3D3",
+      "icon": "fa-desktop",
+      "title": "E-Waste Dump Site"
+    },
+    {
+      "colors": [
+        "#116840",
+        "#EDB12B"
+      ],
+      "maxTitle": "28.3 kg/inhabitant",
+      "minTitle": "0.2"
+    }
+  ],
+  "layers": [
+    {
+      "metadata": {
+        "name": "Conflict Mineral Mining"
+      },
+      "points": [
+        {
+          "lat": 61.956944,
+          "lon": -128.202778,
+          "title": "Cantung Tungsten Mine, Canada"
+        },
+        {
+          "lat": -14.2327,
+          "lon": -70.3207,
+          "title": "San Rafael Tin Mine, Peru",
+          "url": "http://www.nytimes.com/2015/09/08/business/dealbook/companies-struggle-to-comply-with-conflict-minerals-rule.html?_r=0"
+        },
+        {
+          "lat": -12.046374,
+          "lon": -77.042793,
+          "title": "Pasto Bueno tungsten mine,Near Lima Peru"
+        },
+        {
+          "lat": 61.01371,
+          "lon": 99.196656,
+          "title": "Lednikovy-Sarmaka mine, Russsia"
+        },
+        {
+          "lat": 23.366667,
+          "lon": 103.15,
+          "title": "Yunnan Tin Belt, China",
+          "url": "https://www.youtube.com/watch?v=_PgbrPiUG0M"
+        },
+        {
+          "lat": 26.641769,
+          "lon": 118.177708,
+          "title": "Nanping Tantalum Mine, China"
+        },
+        {
+          "lat": 29.5348,
+          "lon": 117.373,
+          "title": "Tungsten Mine, Fuliang county, China"
+        },
+        {
+          "lat": 21.666667,
+          "lon": 105.833333,
+          "text": "Tungsten has a variety of uses, including the control of the vibration mechanism in our cell phones. Tungsten is remarkable for its robustness, especially for the fact that it has the highest melting point of all the elements. Its high density is 19.3 times that of water, comparable to that of uranium and gold, and much higher (about 1.7 times) than that of lead. Tungsten's many alloys have numerous applications, including incandescent light bulb filaments, X-ray tubes, electrodes in welding, superalloys, and radiation shielding. Tungsten's hardness and high density give it military applications in penetrating projectiles. Tungsten compounds are also often used as industrial catalysts.",
+          "title": "Nui Phao Tungsten Mine, Vietnam"
+        },
+        {
+          "lat": -1.938949,
+          "lon": 29.325035,
+          "text": "Tantalum allows Apple’s iPhone to maintain an electrical charge.",
+          "title": "Tantalum Mines, Rutsiro District, Rwanda",
+          "url": "https://www.globalwitness.org/en/campaigns/conflict-minerals/digging-transparency/"
+        },
+        {
+          "lat": -4.441931,
+          "lon": 15.266293,
+          "text": "Heavily armed gangs battle over gold, tin, tantalum and tungsten, also known as the conflict minerals",
+          "title": "Kinshasa Tantalum Mines, Democratic Rep. of Congo",
+          "url": "http://www.mining.com/this-is-how-the-congo-supplies-conflict-minerals-to-the-it-world-36110/"
+        },
+        {
+          "lat": 1.874294,
+          "lon": 105.92299,
+          "title": "Bangka Tin Mines, Indonesia"
+        }
+      ],
+      "style": {
+        "color": "#49311c",
+        "icon": "fa-diamond"
+      }
+    },
+    {
+      "metadata": {
+        "name": "E-Waste Dump Site"
+      },
+      "points": [
+        {
+          "lat": 28.704059,
+          "lon": 77.10249,
+          "title": "Delhi, India"
+        },
+        {
+          "lat": 56.244099,
+          "lon": 43.43518,
+          "title": "Dzerzhinsk, Russia"
+        },
+        {
+          "lat": 21.027764,
+          "lon": 105.83416,
+          "title": "Dong Mai, Vietnam"
+        },
+        {
+          "lat": 20.785217,
+          "lon": 106.620289,
+          "title": "Trang Minh, Hong Kong"
+        },
+        {
+          "lat": 1.082828,
+          "lon": 104.030454,
+          "title": "Batam Island, Malaysia"
+        },
+        {
+          "lat": 5.603717,
+          "lon": -0.186964,
+          "title": "Accra, Ghana"
+        },
+        {
+          "Stories": "Guiyu, China: The largest e-waste dump site in all of China. Laborers here earn under $2.00 per day extracting valuable elements from circuit boards, sometimes by burning plastic coatings around the materials or leaching off the toxic components.",
+          "lat": 31.819184,
+          "lon": 89.592678,
+          "title": "Guiya, China"
+        }
+      ],
+      "style": {
+        "color": "#D3D3D3",
+        "icon": "fa-desktop"
+      }
+    },
+    {
+      "points": [
+        {
+          "key": "Amsterdam",
+          "lat": 52.370215700000003,
+          "lon": 4.8951679000000006,
+          "title": "Amsterdam"
+        },
+        {
+          "key": "Chennai",
+          "lat": 13.0826802,
+          "lon": 80.270718400000007,
+          "title": "Chennai"
+        },
+        {
+          "key": "Dublin",
+          "lat": 53.3498053,
+          "lon": -6.2603096999999996,
+          "title": "Dublin"
+        },
+        {
+          "key": "Frankfurt",
+          "lat": 50.110922100000003,
+          "lon": 8.6821266999999995,
+          "title": "Frankfurt"
+        },
+        {
+          "key": "Hong Kong",
+          "lat": 22.396428,
+          "lon": 114.109497,
+          "title": "Hong Kong"
+        },
+        {
+          "key": "London",
+          "lat": 51.507350899999999,
+          "lon": -0.12775829999999999,
+          "title": "London"
+        },
+        {
+          "key": "Manila",
+          "lat": 14.5995124,
+          "lon": 120.98421949999999,
+          "title": "Manila"
+        },
+        {
+          "key": "Marseille",
+          "lat": 43.296481999999997,
+          "lon": 5.3697800000000004,
+          "title": "Marseille"
+        },
+        {
+          "key": "Melbourne",
+          "lat": -37.813627599999997,
+          "lon": 144.96305760000001,
+          "title": "Melbourne"
+        },
+        {
+          "key": "Mumbai",
+          "lat": 19.075983699999998,
+          "lon": 72.877655899999993,
+          "title": "Mumbai"
+        },
+        {
+          "key": "Osaka",
+          "lat": 34.693737800000001,
+          "lon": 135.50216510000001,
+          "title": "Osaka"
+        },
+        {
+          "key": "Paris",
+          "lat": 48.856614,
+          "lon": 2.3522219,
+          "title": "Paris"
+        },
+        {
+          "key": "Rio de Janeiro",
+          "lat": -22.906846699999999,
+          "lon": -43.1728965,
+          "title": "Rio de Janeiro"
+        },
+        {
+          "key": "Sao Paulo",
+          "lat": -23.550519900000001,
+          "lon": -46.633309399999987,
+          "title": "Sao Paulo"
+        },
+        {
+          "key": "Seoul",
+          "lat": 37.566535000000002,
+          "lon": 126.9779692,
+          "title": "Seoul"
+        },
+        {
+          "key": "Singapore",
+          "lat": 1.3520829999999999,
+          "lon": 103.819836,
+          "title": "Singapore"
+        },
+        {
+          "key": "Sydney",
+          "lat": -33.868819700000003,
+          "lon": 151.2092955,
+          "title": "Sydney"
+        },
+        {
+          "key": "Taipei",
+          "lat": 25.032969399999999,
+          "lon": 121.5654177,
+          "title": "Taipei"
+        },
+        {
+          "key": "Tokyo",
+          "lat": 35.689487499999998,
+          "lon": 139.69170639999999,
+          "title": "Tokyo"
+        },
+        {
+          "key": "Warsaw",
+          "lat": 52.2296756,
+          "lon": 21.012228700000001,
+          "title": "Warsaw"
+        }
+      ],
+      "style": {
+        "color": "#FC9723",
+        "icon": "fa-amazon"
+      }
+    },
+    {
+      "points": [
+        {
+          "key": "Lulea",
+          "lat": 65.584818999999996,
+          "lon": 22.156702599999999,
+          "title": "Lulea"
+        }
+      ],
+      "style": {
+        "color": "#3C5A96",
+        "icon": "fa-facebook"
+      }
+    },
+    {
+      "points": [
+        {
+          "key": "Changhua County",
+          "lat": 24.051796299999999,
+          "lon": 120.51613519999999,
+          "title": "Changhua County"
+        },
+        {
+          "key": "Dublin",
+          "lat": 53.3498053,
+          "lon": -6.2603096999999996,
+          "title": "Dublin"
+        },
+        {
+          "key": "Eemshaven",
+          "lat": 53.438588699999997,
+          "lon": 6.8354936999999998,
+          "title": "Eemshaven"
+        },
+        {
+          "key": "Hamina",
+          "lat": 60.569202800000006,
+          "lon": 27.193845799999998,
+          "title": "Hamina"
+        },
+        {
+          "key": "Quilicura",
+          "lat": -33.357674699999997,
+          "lon": -70.729271799999992,
+          "title": "Quilicura"
+        },
+        {
+          "key": "Singapore",
+          "lat": 1.3520829999999999,
+          "lon": 103.819836,
+          "title": "Singapore"
+        },
+        {
+          "key": "St. Ghislain",
+          "lat": 50.449108600000002,
+          "lon": 3.8183756999999998,
+          "title": "St. Ghislain"
+        }
+      ],
+      "style": {
+        "color": "#3EA756",
+        "icon": "fa-google"
+      }
+    },
+    {
+      "points": [
+        {
+          "key": "Singapore",
+          "lat": 1.3520829999999999,
+          "lon": 103.819836,
+          "title": "Singapore"
+        }
+      ],
+      "style": {
+        "color": "#4C26C0",
+        "icon": "fa-yahoo"
+      }
+    },
+    {
+      "polygons": [
+        {
+          "key": "Burundi",
+          "title": "Burundi",
+          "value": 0.2
+        },
+        {
+          "key": "Comoros",
+          "title": "Comoros",
+          "value": 0.7
+        },
+        {
+          "key": "Djibouti",
+          "title": "Djibouti",
+          "value": 1.2
+        },
+        {
+          "key": "Eritrea",
+          "title": "Eritrea",
+          "value": 0.3
+        },
+        {
+          "key": "Ethiopia",
+          "title": "Ethiopia",
+          "value": 0.5
+        },
+        {
+          "key": "Kenya",
+          "title": "Kenya",
+          "value": 1
+        },
+        {
+          "key": "Madagascar",
+          "title": "Madagascar",
+          "value": 0.3
+        },
+        {
+          "key": "Malawi",
+          "title": "Malawi",
+          "value": 0.2
+        },
+        {
+          "key": "Mauritius",
+          "title": "Mauritius",
+          "value": 9.3
+        },
+        {
+          "key": "Mozambique",
+          "title": "Mozambique",
+          "value": 0.7
+        },
+        {
+          "key": "Rwanda",
+          "title": "Rwanda",
+          "value": 0.6
+        },
+        {
+          "key": "Seychelles",
+          "title": "Seychelles",
+          "value": 10.9
+        },
+        {
+          "key": "Uganda",
+          "title": "Uganda",
+          "value": 0.9
+        },
+        {
+          "key": "United Republic of Tanzania",
+          "title": "United Republic of Tanzania",
+          "value": 0.5
+        },
+        {
+          "key": "Zambia",
+          "title": "Zambia",
+          "value": 0.9
+        },
+        {
+          "key": "Zimbabwe",
+          "title": "Zimbabwe",
+          "value": 0.3
+        },
+        {
+          "key": "Angola",
+          "title": "Angola",
+          "value": 3
+        },
+        {
+          "key": "Cameroon",
+          "title": "Cameroon",
+          "value": 0.9
+        },
+        {
+          "key": "Central African Republic",
+          "title": "Central African Republic",
+          "value": 0.3
+        },
+        {
+          "key": "Chad",
+          "title": "Chad",
+          "value": 0.8
+        },
+        {
+          "key": "Congo",
+          "title": "Congo",
+          "value": 2.5
+        },
+        {
+          "key": "Democratic Republic of the Congo",
+          "title": "Democratic Republic of the Congo",
+          "value": 0.2
+        },
+        {
+          "key": "Equatorial Guinea",
+          "title": "Equatorial Guinea",
+          "value": 10.8
+        },
+        {
+          "key": "Gabon",
+          "title": "Gabon",
+          "value": 7.6
+        },
+        {
+          "key": "Sao Tome and Principe",
+          "title": "Sao Tome and Principe",
+          "value": 1.2
+        },
+        {
+          "key": "Algeria",
+          "title": "Algeria",
+          "value": 4.9
+        },
+        {
+          "key": "Egypt",
+          "title": "Egypt",
+          "value": 4.3
+        },
+        {
+          "key": "Libya",
+          "title": "Libya",
+          "value": 8.3
+        },
+        {
+          "key": "Morocco",
+          "title": "Morocco",
+          "value": 3.7
+        },
+        {
+          "key": "Sudan",
+          "title": "Sudan",
+          "value": 1.2
+        },
+        {
+          "key": "Tunisia",
+          "title": "Tunisia",
+          "value": 5
+        },
+        {
+          "key": "Botswana",
+          "title": "Botswana",
+          "value": 8.3
+        },
+        {
+          "key": "Lesotho",
+          "title": "Lesotho",
+          "value": 0.9
+        },
+        {
+          "key": "Namibia",
+          "title": "Namibia",
+          "value": 5
+        },
+        {
+          "key": "South Africa",
+          "title": "South Africa",
+          "value": 6.6
+        },
+        {
+          "key": "Swaziland",
+          "title": "Swaziland",
+          "value": 4
+        },
+        {
+          "key": "Benin",
+          "title": "Benin",
+          "value": 0.9
+        },
+        {
+          "key": "Burkina Faso",
+          "title": "Burkina Faso",
+          "value": 0.6
+        },
+        {
+          "key": "Cape Verde",
+          "title": "Cape Verde",
+          "value": 2
+        },
+        {
+          "key": "Côte d'Ivoire",
+          "title": "Côte d'Ivoire",
+          "value": 0.8
+        },
+        {
+          "key": "Gambia",
+          "title": "Gambia",
+          "value": 1.2
+        },
+        {
+          "key": "Ghana",
+          "title": "Ghana",
+          "value": 1.4
+        },
+        {
+          "key": "Guinea",
+          "title": "Guinea",
+          "value": 0.8
+        },
+        {
+          "key": "Guinea-Bissau",
+          "title": "Guinea-Bissau",
+          "value": 0.5
+        },
+        {
+          "key": "Liberia",
+          "title": "Liberia",
+          "value": 0.2
+        },
+        {
+          "key": "Mali",
+          "title": "Mali",
+          "value": 0.6
+        },
+        {
+          "key": "Mauritania",
+          "title": "Mauritania",
+          "value": 0.9
+        },
+        {
+          "key": "Niger",
+          "title": "Niger",
+          "value": 0.2
+        },
+        {
+          "key": "Nigeria",
+          "title": "Nigeria",
+          "value": 1.3
+        },
+        {
+          "key": "Senegal",
+          "title": "Senegal",
+          "value": 0.9
+        },
+        {
+          "key": "Sierra Leone",
+          "title": "Sierra Leone",
+          "value": 0.4
+        },
+        {
+          "key": "Togo",
+          "title": "Togo",
+          "value": 0.8
+        },
+        {
+          "key": "Antigua and Barbuda",
+          "title": "Antigua and Barbuda",
+          "value": 11.6
+        },
+        {
+          "key": "Bahamas",
+          "title": "Bahamas",
+          "value": 19.1
+        },
+        {
+          "key": "Barbados",
+          "title": "Barbados",
+          "value": 13.2
+        },
+        {
+          "key": "Dominica",
+          "title": "Dominica",
+          "value": 9.7
+        },
+        {
+          "key": "Dominican Republic",
+          "title": "Dominican Republic",
+          "value": 5.4
+        },
+        {
+          "key": "Grenada",
+          "title": "Grenada",
+          "value": 10
+        },
+        {
+          "key": "Haiti",
+          "title": "Haiti",
+          "value": 0.6
+        },
+        {
+          "key": "Jamaica",
+          "title": "Jamaica",
+          "value": 5.8
+        },
+        {
+          "key": "Saint Kitts and Nevis",
+          "title": "Saint Kitts and Nevis",
+          "value": 10.1
+        },
+        {
+          "key": "Saint Lucia",
+          "title": "Saint Lucia",
+          "value": 9.9
+        },
+        {
+          "key": "Saint Vincent",
+          "title": "Saint Vincent",
+          "value": 9.7
+        },
+        {
+          "key": "Trinidad and Tobago",
+          "title": "Trinidad and Tobago",
+          "value": 9
+        },
+        {
+          "key": "Belize",
+          "title": "Belize",
+          "value": 6.5
+        },
+        {
+          "key": "Costa Rica",
+          "title": "Costa Rica",
+          "value": 7.5
+        },
+        {
+          "key": "El Salvador",
+          "title": "El Salvador",
+          "value": 4.8
+        },
+        {
+          "key": "Guatemala",
+          "title": "Guatemala",
+          "value": 3.5
+        },
+        {
+          "key": "Honduras",
+          "title": "Honduras",
+          "value": 1.8
+        },
+        {
+          "key": "Mexico",
+          "title": "Mexico",
+          "value": 8.2
+        },
+        {
+          "key": "Nicaragua",
+          "title": "Nicaragua",
+          "value": 1.7
+        },
+        {
+          "key": "Panama",
+          "title": "Panama",
+          "value": 8.2
+        },
+        {
+          "key": "Canada",
+          "title": "Canada",
+          "value": 20.4
+        },
+        {
+          "key": "United States of America",
+          "title": "United States of America",
+          "value": 22.1
+        },
+        {
+          "key": "Argentina",
+          "title": "Argentina",
+          "value": 7
+        },
+        {
+          "key": "Bolivia",
+          "title": "Bolivia",
+          "value": 4
+        },
+        {
+          "key": "Brazil",
+          "title": "Brazil",
+          "value": 7
+        },
+        {
+          "key": "Chile",
+          "title": "Chile",
+          "value": 9.9
+        },
+        {
+          "key": "Colombia",
+          "title": "Colombia",
+          "value": 5.3
+        },
+        {
+          "key": "Ecuador",
+          "title": "Ecuador",
+          "value": 4.6
+        },
+        {
+          "key": "Guyana",
+          "title": "Guyana",
+          "value": 6.1
+        },
+        {
+          "key": "Paraguay",
+          "title": "Paraguay",
+          "value": 4.9
+        },
+        {
+          "key": "Peru",
+          "title": "Peru",
+          "value": 4.7
+        },
+        {
+          "key": "Suriname",
+          "title": "Suriname",
+          "value": 8.5
+        },
+        {
+          "key": "Uruguay",
+          "title": "Uruguay",
+          "value": 9.5
+        },
+        {
+          "key": "Venezuela",
+          "title": "Venezuela",
+          "value": 7.6
+        },
+        {
+          "key": "Kazakhstan",
+          "title": "Kazakhstan",
+          "value": 7.7
+        },
+        {
+          "key": "Kyrgyzstan",
+          "title": "Kyrgyzstan",
+          "value": 1.2
+        },
+        {
+          "key": "Tajikistan",
+          "title": "Tajikistan",
+          "value": 0.8
+        },
+        {
+          "key": "Turkmenistan",
+          "title": "Turkmenistan",
+          "value": 3.9
+        },
+        {
+          "key": "Uzbekistan",
+          "title": "Uzbekistan",
+          "value": 1.5
+        },
+        {
+          "key": "China",
+          "title": "China",
+          "value": 4.4
+        },
+        {
+          "key": "China, Hong Kong",
+          "title": "China, Hong Kong",
+          "value": 21.5
+        },
+        {
+          "key": "Japan",
+          "title": "Japan",
+          "value": 17.3
+        },
+        {
+          "key": "Mongolia",
+          "title": "Mongolia",
+          "value": 1.8
+        },
+        {
+          "key": "Republic of Korea",
+          "title": "Republic of Korea",
+          "value": 15.9
+        },
+        {
+          "key": "Taiwan 2",
+          "title": "Taiwan 2",
+          "value": 18.6
+        },
+        {
+          "key": "Brunei Darus- salam",
+          "title": "Brunei Darus- salam",
+          "value": 18.1
+        },
+        {
+          "key": "Cambodia",
+          "title": "Cambodia",
+          "value": 1
+        },
+        {
+          "key": "Indonesia",
+          "title": "Indonesia",
+          "value": 3
+        },
+        {
+          "key": "Lao People's Democratic Republic",
+          "title": "Lao People's Democratic Republic",
+          "value": 1.2
+        },
+        {
+          "key": "Malaysia",
+          "title": "Malaysia",
+          "value": 7.6
+        },
+        {
+          "key": "Myanmar",
+          "title": "Myanmar",
+          "value": 0.4
+        },
+        {
+          "key": "Philippines",
+          "title": "Philippines",
+          "value": 1.3
+        },
+        {
+          "key": "Singapore",
+          "title": "Singapore",
+          "value": 19.6
+        },
+        {
+          "key": "Thailand",
+          "title": "Thailand",
+          "value": 6.4
+        },
+        {
+          "key": "Timor-Leste",
+          "title": "Timor-Leste",
+          "value": 4.1
+        },
+        {
+          "key": "Viet Nam",
+          "title": "Viet Nam",
+          "value": 1.3
+        },
+        {
+          "key": "Afghanistan",
+          "title": "Afghanistan",
+          "value": 0.3
+        },
+        {
+          "key": "Bangladesh",
+          "title": "Bangladesh",
+          "value": 0.8
+        },
+        {
+          "key": "Bhutan",
+          "title": "Bhutan",
+          "value": 3.7
+        },
+        {
+          "key": "India",
+          "title": "India",
+          "value": 1.3
+        },
+        {
+          "key": "Iran (Islamic Republic of)",
+          "title": "Iran (Islamic Republic of)",
+          "value": 7.4
+        },
+        {
+          "key": "Maldives",
+          "title": "Maldives",
+          "value": 6.1
+        },
+        {
+          "key": "Nepal",
+          "title": "Nepal",
+          "value": 0.5
+        },
+        {
+          "key": "Pakistan",
+          "title": "Pakistan",
+          "value": 1.4
+        },
+        {
+          "key": "Sri Lanka",
+          "title": "Sri Lanka",
+          "value": 4.2
+        },
+        {
+          "key": "Armenia",
+          "title": "Armenia",
+          "value": 4.6
+        },
+        {
+          "key": "Azerbaijan",
+          "title": "Azerbaijan",
+          "value": 5.1
+        },
+        {
+          "key": "Bahrain",
+          "title": "Bahrain",
+          "value": 12.9
+        },
+        {
+          "key": "Cyprus",
+          "title": "Cyprus",
+          "value": 16.3
+        },
+        {
+          "key": "Georgia",
+          "title": "Georgia",
+          "value": 4.6
+        },
+        {
+          "key": "Iraq",
+          "title": "Iraq",
+          "value": 3.1
+        },
+        {
+          "key": "Israel",
+          "title": "Israel",
+          "value": 17.2
+        },
+        {
+          "key": "Jordan",
+          "title": "Jordan",
+          "value": 4.5
+        },
+        {
+          "key": "Kuwait",
+          "title": "Kuwait",
+          "value": 17.2
+        },
+        {
+          "key": "Lebanon",
+          "title": "Lebanon",
+          "value": 9.4
+        },
+        {
+          "key": "Oman",
+          "title": "Oman",
+          "value": 14
+        },
+        {
+          "key": "Qatar",
+          "title": "Qatar",
+          "value": 16.3
+        },
+        {
+          "key": "Saudi Arabia",
+          "title": "Saudi Arabia",
+          "value": 12.5
+        },
+        {
+          "key": "Syrian Arab Republic",
+          "title": "Syrian Arab Republic",
+          "value": null
+        },
+        {
+          "key": "Turkey",
+          "title": "Turkey",
+          "value": 6.5
+        },
+        {
+          "key": "United Arab Emirates",
+          "title": "United Arab Emirates",
+          "value": 17.2
+        },
+        {
+          "key": "Yemen",
+          "title": "Yemen",
+          "value": 1.2
+        },
+        {
+          "key": "Belarus",
+          "title": "Belarus",
+          "value": 7.7
+        },
+        {
+          "key": "Bulgaria",
+          "title": "Bulgaria",
+          "value": 10.7
+        },
+        {
+          "key": "Czech Republic",
+          "title": "Czech Republic",
+          "value": 14.8
+        },
+        {
+          "key": "Hungary",
+          "title": "Hungary",
+          "value": 12.6
+        },
+        {
+          "key": "Poland",
+          "title": "Poland",
+          "value": 10
+        },
+        {
+          "key": "Republic of Moldova",
+          "title": "Republic of Moldova",
+          "value": 1.8
+        },
+        {
+          "key": "Romania",
+          "title": "Romania",
+          "value": 9.2
+        },
+        {
+          "key": "Russia",
+          "title": "Russia",
+          "value": 8.7
+        },
+        {
+          "key": "Slovakia",
+          "title": "Slovakia",
+          "value": 11.4
+        },
+        {
+          "key": "Ukraine",
+          "title": "Ukraine",
+          "value": 5.7
+        },
+        {
+          "key": "Denmark",
+          "title": "Denmark",
+          "value": 24
+        },
+        {
+          "key": "Estonia",
+          "title": "Estonia",
+          "value": 14
+        },
+        {
+          "key": "Finland",
+          "title": "Finland",
+          "value": 21.4
+        },
+        {
+          "key": "Iceland",
+          "title": "Iceland",
+          "value": 26
+        },
+        {
+          "key": "Ireland",
+          "title": "Ireland",
+          "value": 19.8
+        },
+        {
+          "key": "Latvia",
+          "title": "Latvia",
+          "value": 10.7
+        },
+        {
+          "key": "Lithuania",
+          "title": "Lithuania",
+          "value": 11.4
+        },
+        {
+          "key": "Norway",
+          "title": "Norway",
+          "value": 28.3
+        },
+        {
+          "key": "Sweden",
+          "title": "Sweden",
+          "value": 22.2
+        },
+        {
+          "key": "Great Britain",
+          "title": "Great Britain",
+          "value": 23.5
+        },
+        {
+          "key": "Ireland",
+          "title": "Ireland",
+          "value": 23.5
+        },
+        {
+          "key": "Albania",
+          "title": "Albania",
+          "value": 6.1
+        },
+        {
+          "key": "Bosnia and Herzegovina",
+          "title": "Bosnia and Herzegovina",
+          "value": 5.3
+        },
+        {
+          "key": "Croatia",
+          "title": "Croatia",
+          "value": 10.8
+        },
+        {
+          "key": "Greece",
+          "title": "Greece",
+          "value": 15.1
+        },
+        {
+          "key": "Italy",
+          "title": "Italy",
+          "value": 17.6
+        },
+        {
+          "key": "Malta",
+          "title": "Malta",
+          "value": 14.6
+        },
+        {
+          "key": "Montenegro",
+          "title": "Montenegro",
+          "value": 7.1
+        },
+        {
+          "key": "Portugal",
+          "title": "Portugal",
+          "value": 16.1
+        },
+        {
+          "key": "Serbia",
+          "title": "Serbia",
+          "value": 7.3
+        },
+        {
+          "key": "Slovenia",
+          "title": "Slovenia",
+          "value": 15
+        },
+        {
+          "key": "Spain",
+          "title": "Spain",
+          "value": 17.7
+        },
+        {
+          "key": "Macedonia",
+          "title": "Macedonia",
+          "value": 6.1
+        },
+        {
+          "key": "Austria",
+          "title": "Austria",
+          "value": 22
+        },
+        {
+          "key": "Belgium",
+          "title": "Belgium",
+          "value": 21.4
+        },
+        {
+          "key": "France",
+          "title": "France",
+          "value": 22.1
+        },
+        {
+          "key": "Germany",
+          "title": "Germany",
+          "value": 21.6
+        },
+        {
+          "key": "Luxembourg",
+          "title": "Luxembourg",
+          "value": 21
+        },
+        {
+          "key": "Netherlands",
+          "title": "Netherlands",
+          "value": 23.3
+        },
+        {
+          "key": "Switzerland",
+          "title": "Switzerland",
+          "value": 26.3
+        },
+        {
+          "key": "Australia",
+          "title": "Australia",
+          "value": 20
+        },
+        {
+          "key": "New Zealand",
+          "title": "New Zealand",
+          "value": 19
+        },
+        {
+          "key": "Fiji",
+          "title": "Fiji",
+          "value": 3.3
+        },
+        {
+          "key": "Papua New Guinea",
+          "title": "Papua New Guinea",
+          "value": 1.1
+        },
+        {
+          "key": "Solomon Islands",
+          "title": "Solomon Islands",
+          "value": 1.6
+        },
+        {
+          "key": "Vanuatu",
+          "title": "Vanuatu",
+          "value": 2.9
+        },
+        {
+          "key": "Kiribati",
+          "title": "Kiribati",
+          "value": 3.9
+        },
+        {
+          "key": "Marshall Islands",
+          "title": "Marshall Islands",
+          "value": 5.5
+        },
+        {
+          "key": "Micronesia",
+          "title": "Micronesia",
+          "value": 5.4
+        },
+        {
+          "key": "Samoa",
+          "title": "Samoa",
+          "value": 4
+        },
+        {
+          "key": "Tongata",
+          "title": "Tongata",
+          "value": 5.4
+        },
+        {
+          "key": "Tuvalu",
+          "title": "Tuvalu",
+          "value": 1.7
+        }
+      ],
+      "style": {
+        "scale": [
+          "#116840",
+          "#EDB12B"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "author": "Neal Weinberg",
+    "cardImage": "photo-1468787737698-f5c03f0570dd",
+    "category": "Environmental",
+    "description": "In the US, 12 million mobile phones were collected for recycling in 2011 even though 120 million were bought. Meanwhile, newer phone models are racing on to the market leaving old ones likely to end up in landfills.\nChristmas will see a surge in sales and waste around the world,” says Ruediger Kuehr, Executive Secretary of StEP. “The explosion is happening because there’s so much technical innovation. TVs, mobile phones and computers are all being replaced more and more quickly. The lifetime of products is also shortening.\nE-waste — which extends from old fridges to toys and even motorized toothbrushes — is now the world’s fastest growing waste stream. China generated 11.1 million tonnes last year, followed by the US with 10 million tonnes…By 2017, Kuehr expects the volume of end-of-life TVs, phones, computers, monitors, e-toys and other products to be enough to fill a 15,000-mile line of 40-tonne lorries.\nAlthough it is legal to export discarded goods to poor countries if they can be reused or refurbished, much is being sent to Africa or Asia under false pretences, says Interpol. Treatment in these countries usually occurs in the informal sector, causing significant environmental pollution and health risks for local populations,” he said.\nJohn Vidal, The Guardian",
+    "links": [
+      "http://www.ban.org/give",
+      "http://www.ban.org/advocacy"
+    ],
+    "name": "E-Waste",
+    "sources": [
+      "http://www.nytimes.com"
+    ],
+    "summary": "In so many ways, electronics have forever changed our lives for the better. However, byproducts of these incredible, life changing wonders has become the fastest growing stream of hazardous \"E-waste.\" Our old devices are often sent to countries that do not properly dispose of highly toxic components."
+  }
+}
