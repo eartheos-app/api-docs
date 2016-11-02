@@ -1,8 +1,6 @@
 ![alt tag](./assets/eartheos-dev_docs_github_banner.png)
 # Eartheos for Developers
 
-## Overview
-
 Our mission is to give users perspective on global issues by transforming the Earth into a storytelling and educational platform. Developers, institutions, and students alike use the Eartheos app to visualize a topic as it relates to different locations around the world. With the globe at the center of our experience, we seek to transport users to the international space station where they can explore our planet through layers of information.
 
 ## Testing Data
