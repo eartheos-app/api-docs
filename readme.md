@@ -5,9 +5,17 @@ Our mission is to give users perspective on global issues by transforming the Ea
 
 ## Testing Data
 
-To test the way your data renders in the Eartheos app, we recommend setting up a web server on your local machine to serve the necessary JSON files.  If you don't have one handy, we recommend the [http-server](https://github.com/indexzero/http-server) package.
+### Setting up a server
 
-Once you have your server running, open Eartheos on your iOS device and scroll to the "Add Your Data" card.  Tap "Learn More" and follow the on-screen instructions.
+To test the way your data renders in the Eartheos app, we recommend setting up a web server on your local machine to serve the necessary JSON files.  If you don't have one handy, we recommend the [http-server](https://github.com/indexzero/http-server) package. If you use it, ensure that you run the server from the directory in which your JSON file(s) reside. 
+
+When entering the url into Eartheos, ensure that you use your local area network IP address. It'll most likely look like `192.168.x.x`, `10.x.x.x`, or `172.x.x.x`.  Local addresses like `127.0.0.1` or `localhost` will not work.
+
+Alternatively, you can host your JSON file somewhere on the public internet (Dropbox, Amazon S3, etc). 
+
+### Loading the data
+
+Once you have your data hosted (either on a server you set up or elsewhere), open Eartheos on your iOS device and scroll to the "Add Your Data" card.  Tap "Learn More" and follow the on-screen instructions.
 
 ![alt tag](./assets/18-Card-Dev.jpg) ![alt tag](./assets/19-Card-Full_Screen_Scroll.jpg)
 
