@@ -164,6 +164,16 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 }
 ```
 
+**Note:** values for the `icon` field in this structure come from [FontAwesome](http://fontawesome.io/icons/) and are prefixed with `fa`. For example: 
+
+```
+{ 
+	"icon": "fa-cubes" 
+}
+```
+
+will render [this](http://fontawesome.io/icon/cubes/) icon.
+
 ### LayerPolygon
 
 ```
