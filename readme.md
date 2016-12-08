@@ -41,9 +41,19 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 	"layers": [Layer],
 	"groups": [LayerGroup],
 	"charts": [Chart],
-	"key": [CategoryKeyItem | ValueKeyItem] // required
+	"key": [CategoryKeyItem | ValueKeyItem], // required
+	"mapType": String
 }
 ```
+
+The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively, it can be set to one of the following:
+
+* `satellite` - MapBox satellite tiles
+* `satelliteHybrid` - MapBox satellite tiles with administrative boundaries / streets / country names / etc.
+* `light` - MapBox map tiles with light color scheme
+* `dark` - MapBox map tiles with dark color scheme
+* `correctedReflectance` - NASA "corrected reflectance" tileset
+* `night` - NASA "Earth at night" tileset
 
 ### CollectionMetadata
 
