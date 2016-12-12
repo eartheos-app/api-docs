@@ -105,6 +105,15 @@ The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively
 }
 ```
 
+Currently, there are two supported `Chart` types:
+
+| Type    | Notes   | Preview |
+| :-----------: |:-------------:| :----:  |
+| `bar` | Currently, no limit exists on the number of categories you can represent under the `data` field. Enjoy `bar` responsibly. | ![alt tag](./assets/graph-bar.png) |
+| `pie` | Automatically calculates percentages based on the data passed. Only pass one number in each array under the `data` field. | ![alt tag](./assets/graph-pie.png) |
+
+These charts appear in the "more info" section of your dataset.
+
 ### LayerGroup
 
 ```
