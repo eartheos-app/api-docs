@@ -5,13 +5,13 @@ Our mission is to give users perspective on global issues by transforming the Ea
 
 ## Testing Data
 
-### Setting up a server
+### Hosting your JSON
 
-To test the way your data renders in the Eartheos app, we recommend setting up a web server on your local machine to serve the necessary JSON files.  If you don't have one handy, we recommend the [http-server](https://github.com/indexzero/http-server) package. If you use it, ensure that you run the server from the directory in which your JSON file(s) reside. 
+To test the way your data renders in the Eartheos app, you can host your JSON file somewhere on the public internet (Dropbox, Amazon S3, etc) and use this URL for testing.
 
-When entering the url into Eartheos, ensure that you use your local area network IP address. It'll most likely look like `192.168.x.x`, `10.x.x.x`, or `172.x.x.x`.  Local addresses like `127.0.0.1` or `localhost` will not work.
+If you prefer, you can also set up a web server on your local machine to serve your JSON files. If you don't have one handy, we recommend the [http-server](https://github.com/indexzero/http-server) package. When doing this, ensure that you run the server from the directory in which your JSON file(s) reside. 
 
-Alternatively, you can host your JSON file somewhere on the public internet (Dropbox, Amazon S3, etc). 
+When entering the url into the Eartheos app, use your local area network IP address. It'll most likely look like `192.168.x.x`, `10.x.x.x`, or `172.x.x.x`.  Local addresses like `127.0.0.1` or `localhost` will not work.
 
 ### Loading the data
 
