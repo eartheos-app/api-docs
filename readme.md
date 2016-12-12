@@ -48,12 +48,14 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 
 The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively, it can be set to one of the following:
 
-* `satellite` - MapBox satellite tiles
-* `satelliteHybrid` - MapBox satellite tiles with administrative boundaries / streets / country names / etc.
-* `light` - MapBox map tiles with light color scheme
-* `dark` - MapBox map tiles with dark color scheme
-* `correctedReflectance` - NASA "corrected reflectance" tileset
-* `night` - NASA "Earth at night" tileset
+| Identifier    | Description   | Preview |
+| :-----------: |:-------------:| :----:  |
+| `satellite` | MapBox satellite tiles | ![alt tag](./assets/tiles-satellite.jpg) |
+| `satelliteHybrid` | MapBox satellite tiles with administrative boundaries / streets / country names / etc. | ![alt tag](./assets/tiles-satelliteHybrid.jpg)
+| `light` | MapBox map tiles with light color scheme | ![alt tag](./assets/tiles-light.jpg) |
+| `dark` | MapBox map tiles with dark color scheme | ![alt tag](./assets/tiles-dark.jpg)
+| `correctedReflectance` | NASA "corrected reflectance" tileset | ![alt tag](./assets/tiles-correctedReflectance.jpg) |
+| `night` | NASA "Earth at night" tileset | ![alt tag](./assets/tiles-night.jpg) |
 
 ### CollectionMetadata
 
