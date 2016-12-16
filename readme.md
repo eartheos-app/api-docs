@@ -114,6 +114,8 @@ Currently, there are two supported `Chart` types:
 
 These charts appear in the "more info" section of your dataset.
 
+## Visualisations
+
 Currently there are four supported visualisation types:
 
 | Type    | Notes   | Preview |
