@@ -58,6 +58,10 @@ Layers included in a `LayerGroup` under a `Collection`'s array of `groups` are o
 
 The `Collection`'s `key` array allows you to define the keys/legends that appear in the cards at the bottom of the globe screen. See the `CategoryKeyItem` and `ValueKeyItem` schemas for more information.
 
+###### Style
+
+The `style` `Collection` allows for the definition of a default "base" layer style at the collection level. `LayerStyle`s set on individual layers will override this setting if they are specified.
+
 ###### Map Types
 
 The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively, it can be set to one of the following:
