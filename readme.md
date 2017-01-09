@@ -46,6 +46,20 @@ A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's 
 }
 ```
 
+###### Layers
+
+`Layer`s included in the `layers` array of the `Collection` are always visible when the collection is on the globe, regardless of the globe's state or which `LayerGroup` is selected. 
+
+###### Groups
+
+Layers included in a `LayerGroup` under a `Collection`'s array of `groups` are only visible when that specific `LayerGroup` is selected. This is particularly useful when displaying time-series data. The usual practice is to create `LayerGroup`s with their `LayerGroupMetadata` `name` attributes set to the year the enclosed `Layers` represent. After doing that, the user will be able to compare them by swiping on the picker.
+
+###### Keys
+
+The `Collection`'s `key` array allows you to define the keys/legends that appear in the cards at the bottom of the globe screen. See the `CategoryKeyItem` and `ValueKeyItem` schemas for more information.
+
+###### Map Types
+
 The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively, it can be set to one of the following:
 
 | Identifier    | Description   | Preview |
@@ -74,6 +88,8 @@ The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively
 
 ### CategoryKeyItem
 
+`CategoryKeyItem` objects are used to instruct Eartheos to render a key items. 
+
 ```
 {
 	"color": String, // required
@@ -82,7 +98,22 @@ The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively
 }
 ```
 
+For example, the following `CategoryKeyItem ` renders the following icon/color combination:
+
+```
+{
+    "color": "#FC9723",
+    "icon": "fa-amazon",
+    "title": "Amazon Data Center"
+}
+
+```
+
+![alt tag](./assets/category-key.png)
+
 ### ValueKeyItem
+
+`ValueKeyItem` objects are used to instruct Eartheos to render a key item that reflects a gradient scale of values. 
 
 ```
 {
@@ -91,6 +122,21 @@ The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively
 	"maxTitle": String // required
 }
 ```
+
+For example, the following `ValueKeyItem` renders the following scale:
+
+```
+{
+	"colors": [
+		"#0286EF",
+		"#CEF3FF"
+	],
+	"maxTitle": "Democratic",
+	"minTitle": "Autocratic"
+}
+```
+![alt tag](./assets/gradient-key.png)
+
 
 ### Chart
 
