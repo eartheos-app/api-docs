@@ -235,13 +235,16 @@ There are two ways we handle data that overlaps on the globe:
 ```
 {
 	"name": String, // required
+	"lead": String,
 	"text": String,
+	"image": String,
 	"url": String,
 	"value": Number,
 	"key": String, // required (if lat/lon undefined)
 	"lat": Number, // required (if key undefined)
 	"lon": Number, // required (if key undefined)
-	"style": LayerPointStyle
+	"style": LayerPointStyle,
+	"camera": Camera
 }
 ```
 
@@ -269,12 +272,15 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 ```
 {
 	"name": String, // required
+	"lead": String,
 	"text": String,
+	"video": String,
 	"url": String,
 	"value": Number,
 	"key": String, // required (if bounds undefined)
 	"bounds": [[Float]], // required (if key undefined)
-	"style": LayerPolygonStyle
+	"style": LayerPolygonStyle,
+	"camera": Camera
 }
 ```
 
@@ -285,3 +291,25 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"color": String
 }
 ```
+
+## Stories
+Eartheos has the ability to 'play' though your data in either a default manner where the globe does not move or, with the addition of a `Camera` object, by animating around the globe.
+
+If a `Collection` has more than one `LayerGroup`, Eartheos is able to 'play' through them by simply fading between each group. If an object, like a `LayerPolygon` or `LayerPoint`, in a `LayerGroup` has a `Camera` object then the globe will animate to the position specified during playback. Use this to highlight certain, significant points in your data or even use one point per group to play out a story.
+
+When Eartheos arrives at a `LayerGroup` and finds a `Camera` object, the globe will animate to the specified position. If the object has information like `lead` or `text` or `image` that would be shown in an annotation, an annotation is shown.
+
+**Note:** If `Duration` is less than 2 seconds an annotation will not be shown when arriving at that group. If `Duration` is greater than 5 seconds then the globe will animate into position for 5 seconds and hold at the position until the `Duration` is reached.
+
+### Camera
+```
+{
+	"height": Number, // in units of Earth's radius
+	"heading": Number, // radians, 0 = North
+	"tilt": Number, // radians
+	"duration": Number, // seconds
+	"latitude": Number, // required
+	"longitude": Number // required
+}
+```
+
