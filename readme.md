@@ -292,6 +292,23 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 }
 ```
 
+### LayerSticker
+A `LayerSticker` is for displaying an image on the globe. It is created with a `stickerImage` URL and coordinates to the lower-left and upper-right corners of the image.
+
+```
+{
+	"stickerImage": String, // required
+	"ll": Number, // required
+	"ur": Number, // required
+	"name": String,
+	"lead": String,
+	"text": String,
+	"video": String,
+	"url": String,
+	"camera": Camera
+}
+```
+
 ## Stories
 Eartheos has the ability to 'play' though your data in either a default manner where the globe does not move or, with the addition of a `Camera` object, by animating around the globe.
 
