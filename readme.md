@@ -299,7 +299,7 @@ If a `Collection` has more than one `LayerGroup`, Eartheos is able to 'play' thr
 
 When Eartheos arrives at a `LayerGroup` and finds a `Camera` object, the globe will animate to the specified position. If the object has information like `lead` or `text` or `image` that would be shown in an annotation, an annotation is shown.
 
-**Note:** If `Duration` is less than 2 seconds an annotation will not be shown when arriving at that group. If `Duration` is greater than 5 seconds then the globe will animate into position for 5 seconds and hold at the position until the `Duration` is reached.
+**Note:** If `duration` is less than 2 seconds an annotation will not be shown when arriving at that group. If `duration` is greater than 5 seconds then the globe will animate into position for 5 seconds and hold at the position until the `duration` is reached.
 
 ### Camera
 ```
