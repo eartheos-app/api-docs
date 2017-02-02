@@ -21,11 +21,11 @@ To test the way your data renders in the Eartheos app, you can host your JSON fi
 When using a service like Dropbox, make sure to get a direct url to the file and not one that leads to a file viewer from that service.
 For example when using dropbox a url like this will lead to a Dropbox page and Eartheos will not be able to get the JSON.
 
-https://<i></i>www.dropbox.com/s/00000/my_data.json
+`https://www.dropbox.com/s/00000/my_data.json`
 
 However, using this url will work.
 
-https://<i></i>dl.dropbox.com/s/00000/my_data.json
+`https://dl.dropbox.com/s/00000/my_data.json`
 
 ##### Local Server
 
