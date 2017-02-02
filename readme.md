@@ -290,6 +290,8 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 
 ### LayerPolygon
 
+[Check out the polygons included in Eartheos that can be used as the `key`.](./included_regions.md)
+
 ```
 {
 	"name": String, // required
@@ -300,6 +302,22 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"value": Number,
 	"key": String, // required (if bounds undefined)
 	"bounds": [[Float]], // required (if key undefined)
+	"style": LayerPolygonStyle,
+	"camera": Camera
+}
+```
+
+**Example:** If you would like to display a polygon that is not [included](./included_regions.md) then you can use a custom polygon as shown below.
+
+```
+{
+	"name": String, // required
+	"lead": String,
+	"text": String,
+	"video": String,
+	"url": String,
+	"value": Number,
+	"bounds": [[68.935,-48.625],[69.58,-48.94],[70.525,-49.065],[70.56,-49.255],[70.28,-49.71],[68.745,-49.775],[68.72,-49.2425],[68.8675,-48.83],[68.935,-48.625]],
 	"style": LayerPolygonStyle,
 	"camera": Camera
 }
