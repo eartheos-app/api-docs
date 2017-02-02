@@ -5,9 +5,29 @@ Our mission is to give users perspective on global issues by transforming the Ea
 
 ## Testing Data
 
+### Creating your JSON
+
+One way to start of building a data to make a visualisation is by creating a csv file in an app like Microsoft Excel or Google Sheets. These can then be converted to JSON by services like the following:
+
+* https://konklone.io/json/
+* https://shancarter.github.io/mr-data-converter/
+
 ### Hosting your JSON
 
+##### File Hosting Services
+
 To test the way your data renders in the Eartheos app, you can host your JSON file somewhere on the public internet (Dropbox, Amazon S3, etc) and use this URL for testing.
+
+When using a service like Dropbox, make sure to get a direct url to the file and not one that leads to a file viewer from that service.
+For example when using dropbox a url like this will lead to a Dropbox page and Eartheos will not be able to get the JSON.
+
+https://<i></i>www.dropbox.com/s/00000/my_data.json
+
+However, using this url will work.
+
+https://<i></i>dl.dropbox.com/s/00000/my_data.json
+
+##### Local Server
 
 If you prefer, you can also set up a web server on your local machine to serve your JSON files. If you don't have one handy, we recommend the [http-server](https://github.com/indexzero/http-server) package. When doing this, ensure that you run the server from the directory in which your JSON file(s) reside. 
 
@@ -25,6 +45,7 @@ We **strongly** recommend analyzing the following collection examples for more c
 
 * [Polity](./examples/polity.json)
 * [E-Waste](./examples/e-waste.json)
+* [Stories](./examples/stories_example.json)
 
 ## Collection Schema
 
@@ -317,6 +338,8 @@ If a `Collection` has more than one `LayerGroup`, Eartheos is able to 'play' thr
 When Eartheos arrives at a `LayerGroup` and finds a `Camera` object, the globe will animate to the specified position. If the object has information like `lead` or `text` or `image` that would be shown in an annotation, an annotation is shown.
 
 **Note:** If `duration` is less than 2 seconds an annotation will not be shown when arriving at that group. If `duration` is greater than 5 seconds then the globe will animate into position for 5 seconds and hold at the position until the `duration` is reached.
+
+**Example:** [Check out the Lake Poopó data for a stories example.](./examples/stories_example.json)
 
 ### Camera
 ```
