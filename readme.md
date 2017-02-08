@@ -292,6 +292,8 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 
 [Check out the polygons included in Eartheos that can be used as the `key`.](./included_regions.md)
 
+**Tip:** One way to make more distinctive polygons is to provide a `color` instead of using a `value` that maps to a color from the `scale` of a `LayerStyle`. Another way is by providing more hex colors in the `scale` of a `LayerStyle` to get a more varied gradient that will map to your values.
+
 ```
 {
 	"name": String, // required
@@ -355,6 +357,8 @@ If a `Collection` has more than one `LayerGroup`, Eartheos is able to 'play' thr
 
 When Eartheos arrives at a `LayerGroup` and finds a `Camera` object, the globe will animate to the specified position. If the object has information like `lead` or `text` or `image` that would be shown in an annotation, an annotation is shown.
 
+Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGroup` should have a `Camera` object. Eartheos will animate to the first object with a `camera` property that it finds.
+
 **Note:** If `duration` is less than 2 seconds an annotation will not be shown when arriving at that group. If `duration` is greater than 5 seconds then the globe will animate into position for 5 seconds and hold at the position until the `duration` is reached.
 
 **Example:** [Check out the Lake Poopó data for a stories example.](./examples/stories_example.json)
@@ -370,4 +374,8 @@ When Eartheos arrives at a `LayerGroup` and finds a `Camera` object, the globe w
 	"longitude": Number // required
 }
 ```
+
+###Annotations
+
+Annotations will display and allow the user access to the `name`, `lead`, `text`, `url`, and `image` or `video` of an object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`). Annotations will appear when an object is tapped. An object should not have both a `video` and an `image` as only one will be displayed. These properties should only be added to a specific globe objects and not a `LayerGroup` or a `Camera`.
 
