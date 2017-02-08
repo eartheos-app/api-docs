@@ -103,7 +103,7 @@ The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively
 	"name": String, // required
 	"author": String, // required
 	"category": String, // required
-	"sourceURLs": [String],
+	"sources": [String],
 	"summary": String, // required
 	"description": String, // required
 	"links": [String],
@@ -246,7 +246,7 @@ There are two ways we handle data that overlaps on the globe:
 
 ```
 {
-	"name": String, // required
+	"name": String,
 	"unit": String
 }
 ```
