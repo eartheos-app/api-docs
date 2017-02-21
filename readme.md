@@ -218,7 +218,7 @@ There are two ways we handle data that overlaps on the globe:
 
 ```
 {
-	"name": String  // required
+	"name": String  // required, must be unique to all LayerGroup in a Collection
 }
 ```
 
@@ -360,6 +360,8 @@ When Eartheos arrives at a `LayerGroup` and finds a `Camera` object, the globe w
 Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGroup` should have a `Camera` object. Eartheos will animate to the first object with a `camera` property that it finds.
 
 **Note:** If `duration` is less than 2 seconds an annotation will not be shown when arriving at that group. If `duration` is greater than 5 seconds then the globe will animate into position for 5 seconds and hold at the position until the `duration` is reached.
+
+**Note:** Each `LayerGroup` in a `Collection` should have a unique `name`. Multiple groups with matching names will lead to unintended behavior of these groups on the globe.
 
 **Example:** [Check out the Lake Poopó data for a stories example.](./examples/stories_example.json)
 
