@@ -299,7 +299,7 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"name": String, // required
 	"lead": String,
 	"text": String,
-	"video": String,
+	"youtube": String,
 	"url": String,
 	"value": Number,
 	"key": String, // required (if bounds undefined)
@@ -379,5 +379,5 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 
 ###Annotations
 
-Annotations will display and allow the user access to the `name`, `lead`, `text`, `url`, and `image` or `video` of an object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`). Annotations will appear when an object is tapped. An object should not have both a `video` and an `image` as only one will be displayed. These properties should only be added to a specific globe objects and not a `LayerGroup` or a `Camera`.
+Annotations will display and allow the user access to the `name`, `lead`, `text`, `url`, and `image` or `video` of an object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`). Annotations will appear when an object is tapped. An object should only have either a `youtube` (a YouTube video ID), a `video` (a video URL), or an `image` as only one will be displayed. These properties should only be added to a specific globe objects and not a `LayerGroup` or a `Camera`.
 
