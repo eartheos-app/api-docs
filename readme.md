@@ -301,6 +301,7 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"lead": String,
 	"text": String,
 	"video": String,
+	"youtube": String,
 	"url": String,
 	"value": Number,
 	"key": String, // required (if bounds undefined)
