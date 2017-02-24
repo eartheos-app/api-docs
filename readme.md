@@ -265,7 +265,8 @@ There are two ways we handle data that overlaps on the globe:
 	"lat": Number, // required (if key undefined)
 	"lon": Number, // required (if key undefined)
 	"style": LayerPointStyle,
-	"camera": Camera
+	"camera": Camera,
+	"charts": [Chart]
 }
 ```
 
@@ -305,7 +306,8 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"key": String, // required (if bounds undefined)
 	"bounds": [[Float]], // required (if key undefined)
 	"style": LayerPolygonStyle,
-	"camera": Camera
+	"camera": Camera,
+	"charts": [Chart]
 }
 ```
 
@@ -379,5 +381,5 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 
 ###Annotations
 
-Annotations will display and allow the user access to the `name`, `lead`, `text`, `url`, and `image` or `video` of an object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`). Annotations will appear when an object is tapped. An object should not have both a `video` and an `image` as only one will be displayed. These properties should only be added to a specific globe objects and not a `LayerGroup` or a `Camera`.
+Annotations will display and allow the user access to the `name`, `lead`, `text`, `url`, `charts`, and `image` or `video` of an object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`). Annotations will appear when an object is tapped. An object should not have both a `video` and an `image` as only one will be displayed. These properties should only be added to a specific globe objects and not a `LayerGroup` or a `Camera`.
 
