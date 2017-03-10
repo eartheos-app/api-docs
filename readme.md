@@ -46,6 +46,8 @@ We **strongly** recommend analyzing the following collection examples for more c
 * [Polity](./examples/polity.json)
 * [E-Waste](./examples/e-waste.json)
 * [Stories](./examples/stories_example.json)
+* [WWII](./examples/rhino_viz_zoom.json)
+* [Rhino](./examples/wwii_fallen.json)
 
 ## Collection Schema
 
