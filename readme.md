@@ -390,8 +390,8 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 	"duration": Number, // seconds
 	"latitude": Number, // required
 	"longitude": Number, // required
-    "parabolic": Boolean,
-    "expandKey": Boolean
+   	"parabolic": Boolean,
+    	"expandKey": Boolean
 }
 ```
 
