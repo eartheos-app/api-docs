@@ -57,8 +57,11 @@ Data is delivered to the Eartheos app in [JSON](https://en.wikipedia.org/wiki/JS
 
 A `Collection` is the Eartheos API's top-level object.  Each card on Eartheos's main view represents a collection.
 
+The `devTools` property will turn on a couple tools to help you build an Eartheos DV. Labels for the current globe position and height will aid in determining position for your objects. When viewing a sticker on the globe, controls to adjust its position will also appear.
+
 ```
 {
+    "devTools": Boolean
 	"metadata": CollectionMetadata, // required
 	"style": LayerStyle,
 	"layers": [Layer],
@@ -231,7 +234,8 @@ There are two ways we handle data that overlaps on the globe:
 	"metadata": LayerMetadata,  // required
 	"style": LayerStyle,  // required
 	"points": [LayerPoint],  // required (if polygons undefined)
-	"polygons": [LayerPolygon]  // required (if points undefined)
+	"polygons": [LayerPolygon],  // required (if points undefined)
+    "stickers": [LayerSticker]
 }
 ```
 
@@ -240,7 +244,8 @@ There are two ways we handle data that overlaps on the globe:
 ```
 {
 	"color": String,  // required (if scale undefined)
-	"scale": [String] // required (if color undefined)
+	"scale": [String], // required (if color undefined)
+    "icon": String
 }
 ```
 
@@ -339,13 +344,19 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 ```
 
 ### LayerSticker
-A `LayerSticker` is for displaying an image on the globe. It is created with a `stickerImage` URL and coordinates to the lower-left and upper-right corners of the image.
+A `LayerSticker` is for displaying an image on the globe. It is created with a `stickerImage` URL and coordinates to the lower-left (`ll`) and upper-right (`ur`) corners of the image.
 
 ```
 {
 	"stickerImage": String, // required
-	"ll": Number, // required
-	"ur": Number, // required
+	"ll": { // required
+        "lat": Number,
+        "lon": Number
+    },
+	"ur": { // required
+        "lat": Number,
+        "lon": Number
+    },
 	"name": String,
 	"lead": String,
 	"text": String,
@@ -378,7 +389,9 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 	"tilt": Number, // radians
 	"duration": Number, // seconds
 	"latitude": Number, // required
-	"longitude": Number // required
+	"longitude": Number, // required
+    "parabolic": Boolean,
+    "expandKey": Boolean
 }
 ```
 
@@ -386,5 +399,11 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 
 Annotations will display and allow the user access to the `name`, `lead`, `text`, `url`, `charts`, and `image` or `video` or `youtube` of an object (`LayerPolygon` or `LayerPoint`). Annotations will appear when an object is tapped. An object should only have only either a `video`, a `youtube` or `image` as only one can be displayed. These properties should only be added to specific globe objects and not a `LayerGroup` or a `Camera`.
 
+**`parabolic`** Set this to turn on parabolic camera movement. False by default, the camera moves directly between `Camera` locations. When on, the camera moves out from the globe and back in as the globe rotates to the next `Camera` position.
+
+**`expandKey`** When a story is playing and a group does not have sufficient information to display an annotation, then the key will be returned to view. The key can be displayed in a fully-expanded state where all of its parts are visible. It can also be displayed in a collapsed state where only the header is visible. `expandKey` is false by default to allow for more viewing space (recommended if stickers are being viewed).
+
 **Videos:** There are two ways to include a video in an annotation. One is with a URL to a video file in the `video` property. The second way is with a YouTube video ID in the `youtube` property. These, along with the other annotation properties can be included on globe objects `LayerPolygon` or `LayerPoint`.
+
+When playing YouTube videos, `videoStart` and `videoEnd` properties can be supplied to determine at what time (in seconds) the video starts and ends.
 
