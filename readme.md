@@ -350,12 +350,12 @@ A `LayerSticker` is for displaying an image on the globe. It is created with a `
 {
 	"stickerImage": String, // required
 	"ll": { // required
-        "lat": Number,
-        "lon": Number
+        	"lat": Number,
+        	"lon": Number
     },
 	"ur": { // required
-        "lat": Number,
-        "lon": Number
+        	"lat": Number,
+       		"lon": Number
     },
 	"name": String,
 	"lead": String,
