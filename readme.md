@@ -61,7 +61,7 @@ The `devTools` property will turn on a couple tools to help you build an Eartheo
 
 ```
 {
-    "devTools": Boolean
+  	"devTools": Boolean,
 	"metadata": CollectionMetadata, // required
 	"style": LayerStyle,
 	"layers": [Layer],
