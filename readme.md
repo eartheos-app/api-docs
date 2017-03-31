@@ -49,6 +49,11 @@ We **strongly** recommend analyzing the following collection examples for more c
 * [WWII](./examples/rhino_viz_zoom.json)
 * [Rhino](./examples/wwii_fallen.json)
 
+## JSON Validation
+
+Use our [JSON Schema](./eartheos_schema.json) to check for erros in your data visualization. Paste it into https://jsonschemalint.com for easy use.
+
+
 ## Collection Schema
 
 Data is delivered to the Eartheos app in [JSON](https://en.wikipedia.org/wiki/JSON) format.  Please adhere to this schema when constructing your data set to ensure the smoothest integration with Eartheos.

@@ -1,0 +1,497 @@
+{
+    "id": "eartheos",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "eartheos schema",
+    "type": "object",
+    "required": [
+        "key",
+        "metadata"
+    ],
+    "properties": {
+        "metadata": {
+            "$ref": "#/definitions/CollectionMetadata"
+        },
+        "style": {
+            "$ref": "#/definitions/LayerStyle"
+        },
+        "layers": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Layer"
+            }
+        },
+        "groups": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/LayerGroup"
+            }
+        },
+        "charts": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Chart"
+            }
+        },
+        "key": {
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "#/definitions/CategoryKeyItem"
+                },
+                {
+                    "$ref": "#/definitions/ValueKeyItem"
+                }
+            ]
+        },
+        "mapType": {
+            "type": "string",
+            "enum": [
+                "satellite",
+                "satelliteHybrid",
+                "light",
+                "dark",
+                "correctedReflectance",
+                "night"
+            ]
+        }
+    },
+    "definitions": {
+        "CollectionMetadata": {
+            "type": "object",
+            "required": [
+                "name",
+                "author",
+                "category",
+                "summary",
+                "description",
+                "cardImage"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "author": {
+                    "type": "string"
+                },
+                "category": {
+                    "type": "string"
+                },
+                "sources": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "summary": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "links": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "cardImage": {
+                    "type": "string"
+                }
+            }
+        },
+        "CategoryKeyItem": {
+            "type": "object",
+            "required": [
+                "color",
+                "icon",
+                "title"
+            ],
+            "properties": {
+                "color": {
+                    "type": "string"
+                },
+                "icon": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                }
+            }
+        },
+        "ValueKeyItem": {
+            "type": "object",
+            "required": [
+                "colors",
+                "minTitle",
+                "maxTitle"
+            ],
+            "properties": {
+                "colors": {
+                    "type": "array",
+                    "maxItems": 2,
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "minTitle": {
+                    "type": "string"
+                },
+                "maxTitle": {
+                    "type": "string"
+                }
+            }
+        },
+        "Chart": {
+            "type": "object",
+            "required": [
+                "type",
+                "data",
+                "colors"
+            ],
+            "properties": {
+                "colors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "pie",
+                        "bar"
+                    ]
+                },
+                "summary": {
+                    "type": "string"
+                },
+                "data": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "array",
+                        "items": {
+                            "type": "number"
+                        }
+                    }
+                }
+            }
+        },
+        "LayerGroup": {
+            "type": "object",
+            "required": [
+                "metadata",
+                "layers"
+            ],
+            "properties": {
+                "metadata": {
+                    "type": "object",
+                    "required": [
+                        "name"
+                    ],
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "style": {
+                    "$ref": "#/definitions/LayerStyle"
+                },
+                "layers": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Layer"
+                    }
+                }
+            }
+        },
+        "LayerStyle": {
+            "type": "object",
+            "properties": {
+                "color": {
+                    "type": "string"
+                },
+                "scale": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "Layer": {
+            "type": "object",
+            "required": [
+                "metadata",
+                "style"
+            ],
+            "properties": {
+                "metadata": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "unit": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "style": {
+                    "$ref": "#/definitions/LayerStyle"
+                },
+                "points": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LayerPoint"
+                    }
+                },
+                "polygons": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LayerPolygon"
+                    }
+                },
+                "stickers": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LayerSticker"
+                    }
+                }
+            }
+        },
+        "LayerPoint": {
+            "type": "object",
+            "required": [
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "lead": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "video": {
+                    "type": "string"
+                },
+                "youtube": {
+                    "description": "Youtube ID",
+                    "type": "string"
+                },
+                "videoStart": {
+                    "type": "number"
+                },
+                "videoEnd": {
+                    "type": "number"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "string"
+                },
+                "key": {
+                    "type": "string"
+                },
+                "lat": {
+                    "type": "number"
+                },
+                "lon": {
+                    "type": "number"
+                },
+                "webURL": {
+                    "type": "string"
+                },
+                "style": {
+                    "type": "object",
+                    "properties": {
+                        "color": {
+                            "type": "string"
+                        },
+                        "icon": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "camera": {
+                    "$ref": "#/definitions/Camera"
+                },
+                "charts": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Chart"
+                    }
+                }
+            }
+        },
+        "LayerPolygon": {
+            "type": "object",
+            "required": [
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "lead": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "video": {
+                    "type": "string"
+                },
+                "youtube": {
+                    "description": "Youtube ID",
+                    "type": "string"
+                },
+                "videoStart": {
+                    "type": "number"
+                },
+                "videoEnd": {
+                    "type": "number"
+                },
+                "webURL": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "string"
+                },
+                "key": {
+                    "type": "string"
+                },
+                "lat": {
+                    "type": "number"
+                },
+                "lon": {
+                    "type": "number"
+                },
+                "style": {
+                    "type": "object",
+                    "properties": {
+                        "color": {
+                            "type": "string"
+                        },
+                        "icon": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "camera": {
+                    "$ref": "#/definitions/Camera"
+                },
+                "charts": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Chart"
+                    }
+                }
+            }
+        },
+        "LayerSticker": {
+            "type": "object",
+            "required": [
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "lead": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "string"
+                },
+                "key": {
+                    "type": "string"
+                },
+                "lat": {
+                    "type": "number"
+                },
+                "lon": {
+                    "type": "number"
+                },
+                "style": {
+                    "type": "object",
+                    "properties": {
+                        "color": {
+                            "type": "string"
+                        },
+                        "icon": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "camera": {
+                    "$ref": "#/definitions/Camera"
+                },
+                "charts": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Chart"
+                    }
+                }
+            }
+        },
+        "Camera": {
+            "type": "object",
+            "required": [
+                "lat",
+                "lon"
+            ],
+            "properties": {
+                "height": {
+                    "type": "number"
+                },
+                "heading": {
+                    "type": "number"
+                },
+                "tilt": {
+                    "type": "number"
+                },
+                "duration": {
+                    "description": "Seconds",
+                    "type": "number"
+                },
+                "lat": {
+                    "type": "number"
+                },
+                "lon": {
+                    "type": "number"
+                },
+                "parabolic": {
+                    "description": "Set this to turn on parabolic camera movement. False by default, the camera moves directly between \nCamera locations. When on, the camera moves out from the globe and back in as the globe rotates to \nthe next Camera position.\n",
+                    "type": "boolean"
+                },
+                "expandKey": {
+                    "description": "When a story is playing and a group does not have sufficient information to display an annotation, \nthen the key will be returned to view. The key can be displayed in a fully-expanded state where all \nof its parts are visible. It can also be displayed in a collapsed state where only the header is \nvisible. expandKey is false by default to allow for more viewing space (recommended if stickers are \nbeing viewed).\n",
+                    "type": "boolean"
+                }
+            }
+        }
+    }
+}
