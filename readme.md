@@ -272,6 +272,11 @@ There are two ways we handle data that overlaps on the globe:
 	"text": String,
 	"image": String,
 	"url": String,
+	"video": String,
+	"youtube": String,
+	"videoStart": Number,
+	"videoEnd": Number,
+	"webURL": String,
 	"value": Number,
 	"key": String, // required (if lat/lon undefined)
 	"lat": Number, // required (if key undefined)
@@ -314,6 +319,9 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"text": String,
 	"video": String,
 	"youtube": String,
+	"videoStart": Number,
+	"videoEnd": Number,
+	"webURL": String,
 	"url": String,
 	"value": Number,
 	"key": String, // required (if bounds undefined)
@@ -366,6 +374,9 @@ A `LayerSticker` is for displaying an image on the globe. It is created with a `
 	"lead": String,
 	"text": String,
 	"video": String,
+	"videoStart": Number,
+	"videoEnd": Number,
+	"webURL": String,
 	"url": String,
 	"camera": Camera
 }
@@ -396,7 +407,7 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 	"latitude": Number, // required
 	"longitude": Number, // required
    	"parabolic": Boolean,
-    	"expandKey": Boolean
+    "expandKey": Boolean
 }
 ```
 
@@ -407,6 +418,10 @@ Annotations will display and allow the user access to the `name`, `lead`, `text`
 **`parabolic`** Set this to turn on parabolic camera movement. False by default, the camera moves directly between `Camera` locations. When on, the camera moves out from the globe and back in as the globe rotates to the next `Camera` position.
 
 **`expandKey`** When a story is playing and a group does not have sufficient information to display an annotation, then the key will be returned to view. The key can be displayed in a fully-expanded state where all of its parts are visible. It can also be displayed in a collapsed state where only the header is visible. `expandKey` is false by default to allow for more viewing space (recommended if stickers are being viewed).
+
+####Media in Annotations
+
+Annotations can hold one of the following: an image (`image`), a video (`video`) using a direct URL, a video using a YouTube video ID (`youtube`), or a web page using a URL (`webURL`). All other properties can be included together. These include `title`, `lead`, `text`, `url` (which will be linked to in a button at the bottom of the annotation), and `charts`.
 
 **Videos:** There are two ways to include a video in an annotation. One is with a URL to a video file in the `video` property. The second way is with a YouTube video ID in the `youtube` property. These, along with the other annotation properties can be included on globe objects `LayerPolygon` or `LayerPoint`.
 
