@@ -67,6 +67,7 @@ The `devTools` property will turn on a couple tools to help you build an Eartheo
 ```
 {
   	"devTools": Boolean,
+  	"scaleDomain": [Number],
 	"metadata": CollectionMetadata, // required
 	"style": LayerStyle,
 	"layers": [Layer],
@@ -85,6 +86,10 @@ The `devTools` property will turn on a couple tools to help you build an Eartheo
 
 Layers included in a `LayerGroup` under a `Collection`'s array of `groups` are only visible when that specific `LayerGroup` is selected. This is particularly useful when displaying time-series data. The usual practice is to create `LayerGroup`s with their `LayerGroupMetadata` `name` attributes set to the year the enclosed `Layers` represent. After doing that, the user will be able to compare them by swiping on the picker.
 
+###### Scale Domain
+
+A `scaleDomain` array can be specified at the `Collection`, `LayerGroup`, or `Layer` level to set a domain for for the range of values of all the contained objects. This means that a value can be represented by the same color across all `LayerGroup` in a `Collection`. Without this property a domain will be determined by the minimum and maximum values of a `LayerGroup` or `Layer`. A `scaleDomain` should contain only two values representing the minimum and maximum of the domain.
+
 ###### Keys
 
 The `Collection`'s `key` array allows you to define the keys/legends that appear in the cards at the bottom of the globe screen. See the `CategoryKeyItem` and `ValueKeyItem` schemas for more information.
@@ -92,6 +97,10 @@ The `Collection`'s `key` array allows you to define the keys/legends that appear
 ###### Style
 
 The `style` `Collection` allows for the definition of a default "base" layer style at the collection level. `LayerStyle`s set on individual layers will override this setting if they are specified.
+
+###### Colors
+
+Eartheos can handle any color values that CSS can handle. If you set a color of an object or colors in a `scale` you can use values like "hsla(0, 100%, 50%, 1.0)", "#00FF00", "rgb(0, 0, 255)", or "cyan".
 
 ###### Map Types
 
@@ -220,6 +229,7 @@ There are two ways we handle data that overlaps on the globe:
 {
 	"metadata": LayerGroupMetadata,  // required
 	"style": LayerStyle, 
+	"scaleDomain": [Number],
 	"layers": [Layer]  // required
 }
 ```
@@ -237,6 +247,7 @@ There are two ways we handle data that overlaps on the globe:
 ```
 {
 	"metadata": LayerMetadata,  // required
+	"scaleDomain": [Number],
 	"style": LayerStyle,  // required
 	"points": [LayerPoint],  // required (if polygons undefined)
 	"polygons": [LayerPolygon],  // required (if points undefined)

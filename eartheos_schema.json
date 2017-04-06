@@ -53,6 +53,17 @@
                 "correctedReflectance",
                 "night"
             ]
+        },
+        "devTools": {
+            "type": "boolean"
+        },
+        "scaleDomain": {
+            "type": "array",
+            "items": {
+                "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
         }
     },
     "definitions": {
@@ -128,7 +139,6 @@
             "properties": {
                 "colors": {
                     "type": "array",
-                    "maxItems": 2,
                     "items": {
                         "type": "string"
                     }
