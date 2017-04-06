@@ -422,7 +422,7 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 }
 ```
 
-###Annotations
+### Annotations
 
 Annotations will display and allow the user access to the `name`, `lead`, `text`, `url`, `charts`, and `image` or `video` or `youtube` of an object (`LayerPolygon` or `LayerPoint`). Annotations will appear when an object is tapped. An object should only have only either a `video`, a `youtube` or `image` as only one can be displayed. These properties should only be added to specific globe objects and not a `LayerGroup` or a `Camera`.
 
@@ -430,7 +430,7 @@ Annotations will display and allow the user access to the `name`, `lead`, `text`
 
 **`expandKey`** When a story is playing and a group does not have sufficient information to display an annotation, then the key will be returned to view. The key can be displayed in a fully-expanded state where all of its parts are visible. It can also be displayed in a collapsed state where only the header is visible. `expandKey` is false by default to allow for more viewing space (recommended if stickers are being viewed).
 
-####Media in Annotations
+#### Media in Annotations
 
 Annotations can hold one of the following: an image (`image`), a video (`video`) using a direct URL, a video using a YouTube video ID (`youtube`), or a web page using a URL (`webURL`). All other properties can be included together. These include `title`, `lead`, `text`, `url` (which will be linked to in a button at the bottom of the annotation), and `charts`.
 
