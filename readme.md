@@ -65,7 +65,9 @@ The `devTools` property will turn on a couple tools to help you build an Eartheo
 
 ###### Layers
 
-`Layer`s included in the `layers` array of the `Collection` are always visible when the collection is on the globe, regardless of the globe's state or which `LayerGroup` is selected. 
+A `Layer` included in the `layers` array of the `Collection` are always visible when the collection is on the globe, regardless of the globe's state or which `LayerGroup` is selected.
+
+A `Layer` can contain only one type of object (`LayerPoint`, `LayerPolygon`, `LayerSticker`). Multiple types of objects can be displayed together by using multiple layers.
 
 ###### Groups
 
