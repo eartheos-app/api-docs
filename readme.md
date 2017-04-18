@@ -1,47 +1,15 @@
 ![alt tag](./assets/eartheos-dev_docs_github_banner.png)
-# Eartheos for Developers
+# Eartheos Stories for Developers
 
-Our mission is to give users perspective on global issues by transforming the Earth into a storytelling and educational platform. Developers, institutions, and students alike use the Eartheos app to visualize a topic as it relates to different locations around the world. With the globe at the center of our experience, we seek to transport users to the international space station where they can explore our planet through layers of information.
+Easily create Eartheos Stories. Our mission is to give users perspective on global issues by transforming the Earth into a storytelling platform. Developers can use the Eartheos app to visualize a topic as it relates to different locations around the world. With the globe at the center of our experience, we transport users to The International Space Station as their vantage point to explore our planet from the skies above.
 
-## Testing Data
+### Creating your JSON for Eartheos Stories
 
-### Creating your JSON
+One way to easily begin creating an Eartheos Story is to use our JSON template, located here: http://eartheos.sightserve.com/collections/add This template offers the ability to save and host your JSON quickly and easily for testing later
 
-One way to start of building a data to make a visualisation is by creating a csv file in an app like Microsoft Excel or Google Sheets. These can then be converted to JSON by services like the following:
+## JSON Examples
 
-* https://konklone.io/json/
-* https://shancarter.github.io/mr-data-converter/
-
-### Hosting your JSON
-
-##### File Hosting Services
-
-To test the way your data renders in the Eartheos app, you can host your JSON file somewhere on the public internet (Dropbox, Amazon S3, etc) and use this URL for testing.
-
-When using a service like Dropbox, make sure to get a direct url to the file and not one that leads to a file viewer from that service.
-For example when using dropbox a url like this will lead to a Dropbox page and Eartheos will not be able to get the JSON.
-
-`https://www.dropbox.com/s/00000/my_data.json`
-
-However, using this url will work.
-
-`https://dl.dropbox.com/s/00000/my_data.json`
-
-##### Local Server
-
-If you prefer, you can also set up a web server on your local machine to serve your JSON files. If you don't have one handy, we recommend the [http-server](https://github.com/indexzero/http-server) package. When doing this, ensure that you run the server from the directory in which your JSON file(s) reside. 
-
-When entering the url into the Eartheos app, use your local area network IP address. It'll most likely look like `192.168.x.x`, `10.x.x.x`, or `172.x.x.x`.  Local addresses like `127.0.0.1` or `localhost` will not work.
-
-### Loading the data
-
-Once you have your data hosted (either on a server you set up or elsewhere), open Eartheos on your iOS device and scroll to the "Add Your Data" card.  Tap "Learn More" and follow the on-screen instructions.
-
-![alt tag](./assets/18-Card-Dev.jpg) ![alt tag](./assets/19-Card-Full_Screen_Scroll.jpg)
-
-## Examples
-
-We **strongly** recommend analyzing the following collection examples for more context:
+We **strongly** recommend analyzing the following collection examples below for more context. These examples currently appear within the Eartheos App as live Eartheos Stories. You can import one of these JSON examples listed below into the template we provided above to see how it is structured:
 
 * [Polity](./examples/polity.json)
 * [E-Waste](./examples/e-waste.json)
@@ -51,12 +19,29 @@ We **strongly** recommend analyzing the following collection examples for more c
 
 ## JSON Validation
 
+Another helpful tool is our [JSON Schema](./eartheos_schema.json) to check for errors in your Eartheos Stories. Paste it into https://jsonschemalint.com for easy use.
+
+### Other Hosting Options For Your JSON
+
+Aside from hosting your JSON on the Eartheos Cloud through our Template (http://eartheos.sightserve.com/collections/add) you can host your JSON file on the public Internet (Dropbox, Amazon S3, etc) and use this hosted URL for testing.
+If you are using a service like Dropbox, make sure to get a direct url to the file and not one that leads to a file viewer from that service. For example, if using Dropbox…
+This URL, which leads to a Dropbox page, will not work in the Eartheos app: https://www.dropbox.com/s/00000/my_data.json 
+However, using this type of direct URL to Dropbox will work in the Eartheos app: https://dl.dropbox.com/s/00000/my_data.json 
+
+### Loading the data
+
+Once you have your JSON built and hosted (either on Eartheos, Dropbox or elsewhere), open the Eartheos app on your iOS device, go into the Eartheos Stories carousel and scroll to the "Create Your Story" card. Tap "Create Your Story" and follow the on-screen instructions to test your JSON in the app.
+
+![alt tag](./assets/DevCard.PNG) ![alt tag](./assets/DevScreen.PNG)
+
+## JSON Validation
+
 Use our [JSON Schema](./eartheos_schema.json) to check for erros in your data visualization. Paste it into https://jsonschemalint.com for easy use.
 
 
 ## Collection Schema
 
-Data is delivered to the Eartheos app in [JSON](https://en.wikipedia.org/wiki/JSON) format.  Please adhere to this schema when constructing your data set to ensure the smoothest integration with Eartheos.
+Data is delivered to the Eartheos app [JSON](https://en.wikipedia.org/wiki/JSON). Please adhere to this schema when constructing your data set to ensure the smoothest integration with Eartheos.
 
 ### Collection
 
@@ -278,7 +263,7 @@ There are two ways we handle data that overlaps on the globe:
 
 ```
 {
-	"name": String, // required
+	"title": String, // required
 	"lead": String,
 	"text": String,
 	"image": String,
@@ -325,7 +310,7 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 
 ```
 {
-	"name": String, // required
+	"title": String, // required
 	"lead": String,
 	"text": String,
 	"video": String,
@@ -347,7 +332,7 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 
 ```
 {
-	"name": String, // required
+	"title": String, // required
 	"lead": String,
 	"text": String,
 	"video": String,
@@ -381,7 +366,7 @@ A `LayerSticker` is for displaying an image on the globe. It is created with a `
         	"lat": Number,
        		"lon": Number
     },
-	"name": String,
+	"title": String,
 	"lead": String,
 	"text": String,
 	"video": String,
@@ -415,8 +400,8 @@ Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGro
 	"heading": Number, // radians, 0 = North
 	"tilt": Number, // radians
 	"duration": Number, // seconds
-	"latitude": Number, // required
-	"longitude": Number, // required
+	"lat": Number, // required
+	"lon": Number, // required
    	"parabolic": Boolean,
     "expandKey": Boolean
 }
