@@ -273,10 +273,10 @@
         "LayerPoint": {
             "type": "object",
             "required": [
-                "name"
+                "title"
             ],
             "properties": {
-                "name": {
+                "title": {
                     "type": "string"
                 },
                 "lead": {
@@ -344,10 +344,10 @@
         "LayerPolygon": {
             "type": "object",
             "required": [
-                "name"
+                "title"
             ],
             "properties": {
-                "name": {
+                "title": {
                     "type": "string"
                 },
                 "lead": {
@@ -415,10 +415,10 @@
         "LayerSticker": {
             "type": "object",
             "required": [
-                "name"
+                "title"
             ],
             "properties": {
-                "name": {
+                "title": {
                     "type": "string"
                 },
                 "lead": {
