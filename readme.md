@@ -202,11 +202,10 @@ Currently there are four supported visualisation types:
 | `region + value` | This is a `region` accompanied by a `value`. The color of each region is determined by the `value` and the `scale`. | ![example region with value](./assets/region_value.PNG) |
 | `point + value` | This is a `point` accompanied by a `value`. This becomes a cylinder on the globe whose height represents its `value`. They can have any `color`. | ![example point with value](./assets/point_value.PNG) |
 
-There are two ways we handle data that overlaps on the globe:
+We help with the displaying of overlapping points:
 
 | Type    | Notes   | Preview |
 | :-----------: |:-------------:| :----:  |
-| `overlapping regions` | When regions from two collections overlap one will lose its color and each `region`'s `value` will instead be represented by a pattern.  | ![example of overlapping regions visualisation](./assets/overlapping_regions.PNG) |
 | `overlapping points` | When two or more points are in the exact same location the markers will be offset for visibility but slightly overlapping.   | ![example of overlaping points](./assets/overlapping_points.PNG) |
 
 
