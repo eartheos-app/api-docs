@@ -5,7 +5,11 @@ Easily create Eartheos Stories. Our mission is to give users perspective on glob
 
 ### Creating your JSON for Eartheos Stories
 
-One way to easily begin creating an Eartheos Story is to use our JSON template, located here: http://eartheos.sightserve.com/collections/add This template offers the ability to save and host your JSON quickly and easily for testing later
+One way to easily begin creating an Eartheos Story is to use our JSON template, located here: http://eartheos.sightserve.com/collections/add This template offers the ability to save and host your JSON quickly and easily for testing later.
+
+Once your JSON file is saved in the Eartheos cloud they can be opened in the Eartheos app. Visit the Create Your Story card in the main card carousel, tap the button at the bottom, and enter your email in the following screen. Your stories will be automatically loaded whenever you open the app. You can change to a different email or refresh your loaded stories by visiting this screen.
+
+<img align="center" width="400" src="./assets/DevEmailField.PNG">
 
 ## JSON Examples
 
