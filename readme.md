@@ -32,11 +32,15 @@ If you are using a service like Dropbox, make sure to get a direct url to the fi
 This URL, which leads to a Dropbox page, will not work in the Eartheos app: https://www.dropbox.com/s/00000/my_data.json 
 However, using this type of direct URL to Dropbox will work in the Eartheos app: https://dl.dropbox.com/s/00000/my_data.json 
 
+Once you have a URL to your JSON file you can enter it in the Create Your Story screen in the Eartheos app.
+
+<img align="center" width="400" src="./assets/developerURLExample.PNG">
+
 ### Loading the data
 
 Once you have your JSON built and hosted (either on Eartheos, Dropbox or elsewhere), open the Eartheos app on your iOS device, go into the Eartheos Stories carousel and scroll to the "Create Your Story" card. Tap "Create Your Story" and follow the on-screen instructions to test your JSON in the app.
 
-![alt tag](./assets/DevCard.PNG) ![alt tag](./assets/DevScreen.PNG)
+![alt tag](./assets/DevCard.PNG) ![alt tag](./assets/developerScreen.PNG)
 
 ## JSON Validation
 
@@ -201,9 +205,9 @@ Currently there are four supported visualisation types:
 
 | Type    | Notes   | Preview |
 | :-----------: |:-------------:| :----:  |
-| `region` | These are regions on the map that have a `color`(red, blue, yellow). They can also be considered categorized regions. | ![example region](./assets/region.PNG) |
+| `polygon` | These are regions on the map that have a `color`(red, blue, yellow). They can also be considered categorized regions. | ![example region](./assets/region.PNG) |
 | `point` | These are markers on the map. Their appearance is controlled with a `color` and an `icon`. | ![example point](./assets/points.PNG) |
-| `region + value` | This is a `region` accompanied by a `value`. The color of each region is determined by the `value` and the `scale`. | ![example region with value](./assets/region_value.PNG) |
+| `polygon + value` | This is a `region` accompanied by a `value`. The color of each region is determined by the `value` and the `scale`. | ![example region with value](./assets/region_value.PNG) |
 | `point + value` | This is a `point` accompanied by a `value`. This becomes a cylinder on the globe whose height represents its `value`. They can have any `color`. | ![example point with value](./assets/point_value.PNG) |
 
 We help with the displaying of overlapping points:
