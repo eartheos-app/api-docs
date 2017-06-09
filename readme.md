@@ -103,12 +103,14 @@ The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively
 
 | Identifier    | Description   | Preview |
 | :-----------: |:-------------:| :----:  |
-| `satellite` | MapBox satellite tiles | ![alt tag](./assets/tiles-satellite.jpg) |
-| `satelliteHybrid` | MapBox satellite tiles with administrative boundaries / streets / country names / etc. | ![alt tag](./assets/tiles-satelliteHybrid.jpg)
-| `light` | MapBox map tiles with light color scheme | ![alt tag](./assets/tiles-light.jpg) |
-| `dark` | MapBox map tiles with dark color scheme | ![alt tag](./assets/tiles-dark.jpg)
+| `satellite` | Mapbox satellite tiles | ![alt tag](./assets/tiles-satellite.jpg) |
+| `satelliteHybrid` | Mapbox satellite tiles with administrative boundaries / streets / country names / etc. | ![alt tag](./assets/tiles-satelliteHybrid.jpg)
+| `light` | Mapbox map tiles with light color scheme | ![alt tag](./assets/tiles-light.jpg) |
+| `dark` | Mapbox map tiles with dark color scheme | ![alt tag](./assets/tiles-dark.jpg)
 | `correctedReflectance` | NASA "corrected reflectance" tileset | ![alt tag](./assets/tiles-correctedReflectance.jpg) |
 | `night` | NASA "Earth at night" tileset | ![alt tag](./assets/tiles-night.jpg) |
+| `moonlight` | Mapbox moonlight style tiles | ![alt tag](./assets/tiles-moonlight.jpg) |
+
 
 ### CollectionMetadata
 
