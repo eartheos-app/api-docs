@@ -287,6 +287,9 @@
                 "image": {
                     "type": "string"
                 },
+                "audioURL": {
+                    "type": "string"
+                },
                 "video": {
                     "type": "string"
                 },
@@ -356,6 +359,9 @@
                     "type": "string"
                 },
                 "image": {
+                    "type": "string"
+                },
+                "audioURL": {
                     "type": "string"
                 },
                 "url": {

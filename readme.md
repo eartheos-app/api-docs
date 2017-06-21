@@ -279,6 +279,7 @@ We help with the displaying of overlapping points:
 	"text": String,
 	"image": String,
 	"url": String,
+	"audioURL": String,
 	"video": String,
 	"youtube": String,
 	"videoStart": Number,
@@ -324,6 +325,7 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"title": String, // required
 	"lead": String,
 	"text": String,
+	"audioURL": String,
 	"video": String,
 	"youtube": String,
 	"videoStart": Number,
@@ -397,6 +399,8 @@ If a `Collection` has more than one `LayerGroup`, Eartheos is able to 'play' thr
 When Eartheos arrives at a `LayerGroup` and finds a `Camera` object, the globe will animate to the specified position. If the object has information like `lead` or `text` or `image` that would be shown in an annotation, an annotation is shown.
 
 Only one object (`LayerPolygon`, `LayerPoint`, or `LayerSticker`) in a `LayerGroup` should have a `Camera` object. Eartheos will animate to the first object with a `camera` property that it finds.
+
+The `audioURL` property of an object allows for audio to play when the annotation for that object is displayed while the story plays. The audio will continue to play until it reaches its end, another audio file is played, a video is played, or the story is exited by the user. It is suggested that the `duration` property of `Camera` objects be aligned with what you would like displayed while the audio plays.
 
 **Note:** If `duration` is less than 2 seconds an annotation will not be shown when arriving at that group. If `duration` is greater than 5 seconds then the globe will animate into position for 5 seconds and hold at the position until the `duration` is reached.
 
