@@ -371,7 +371,7 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 ```
 {
 	"coordinates": [LayerCoordinate], // required
-	"style": LayerLineStyle,
+	"style": LayerLineStyle
 }
 ```
 
