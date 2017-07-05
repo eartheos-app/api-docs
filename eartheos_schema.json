@@ -51,7 +51,9 @@
                 "light",
                 "dark",
                 "correctedReflectance",
-                "night"
+                "night",
+                "moonlight",
+                "northstar"
             ]
         },
         "devTools": {
@@ -150,6 +152,15 @@
                     "type": "string"
                 }
             }
+        },
+        "LayerCoordinate": {
+            "type": "object",
+            "required": [
+                "lat",
+                "lon"
+            ],
+            "lat": "number",
+            "lon": "number"
         },
         "Chart": {
             "type": "object",
@@ -259,6 +270,12 @@
                     "type": "array",
                     "items": {
                         "$ref": "#/definitions/LayerPolygon"
+                    }
+                },
+                "lines": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LayerLine"
                     }
                 },
                 "stickers": {
@@ -402,6 +419,74 @@
                             "type": "string"
                         },
                         "icon": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "camera": {
+                    "$ref": "#/definitions/Camera"
+                },
+                "charts": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Chart"
+                    }
+                }
+            }
+        },
+        "LayerLine": {
+            "type": "object",
+            "required": [
+                "title"
+            ],
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "lead": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "audioURL": {
+                    "type": "string"
+                },
+                "video": {
+                    "type": "string"
+                },
+                "youtube": {
+                    "description": "Youtube ID",
+                    "type": "string"
+                },
+                "videoStart": {
+                    "type": "number"
+                },
+                "videoEnd": {
+                    "type": "number"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "number"
+                },
+                "coordinates": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LayerCoordinate"
+                    }
+                },
+                "webURL": {
+                    "type": "string"
+                },
+                "style": {
+                    "type": "object",
+                    "properties": {
+                        "color": {
                             "type": "string"
                         }
                     }

@@ -75,7 +75,7 @@ The `devTools` property will turn on a couple tools to help you build an Eartheo
 
 A `Layer` included in the `layers` array of the `Collection` are always visible when the collection is on the globe, regardless of the globe's state or which `LayerGroup` is selected.
 
-A `Layer` can contain only one type of object (`LayerPoint`, `LayerPolygon`, `LayerSticker`). Multiple types of objects can be displayed together by using multiple layers.
+A `Layer` can contain only one type of object (`LayerPoint`, `LayerPolygon`, `LayerSticker`, `LayerLine`). Multiple types of objects can be displayed together by using multiple layers.
 
 ###### Groups
 
@@ -109,8 +109,8 @@ The `mapType` field is optional and defaults to `satelliteHybrid`. Alternatively
 | `dark` | Mapbox map tiles with dark color scheme | ![alt tag](./assets/tiles-dark.jpg)
 | `correctedReflectance` | NASA "corrected reflectance" tileset | ![alt tag](./assets/tiles-correctedReflectance.jpg) |
 | `night` | NASA "Earth at night" tileset | ![alt tag](./assets/tiles-night.jpg) |
-| `moonlight` | Mapbox moonlight style tiles | ![alt tag](./assets/tiles-moonlight.jpg) |
-
+| `moonlight` | Mapbox Moonlight style tiles | ![alt tag](./assets/tiles-moonlight.jpg) |
+| `northstar` | Mapbox North Star style tiles | ![alt tag](./assets/tiles-northstar.png) |
 
 ### CollectionMetadata
 
@@ -245,8 +245,9 @@ We help with the displaying of overlapping points:
 	"metadata": LayerMetadata,  // required
 	"scaleDomain": [Number],
 	"style": LayerStyle,  // required
-	"points": [LayerPoint],  // required (if polygons undefined)
-	"polygons": [LayerPolygon],  // required (if points undefined)
+	"points": [LayerPoint],  // required (if polygons and lines undefined)
+	"polygons": [LayerPolygon],  // required (if points and lines undefined)
+	"lines": [LayerLine], // required (if points and polygons undefined)
     "stickers": [LayerSticker]
 }
 ```
@@ -364,6 +365,34 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"color": String
 }
 ```
+
+### LayerLine
+
+```
+{
+	"coordinates": [LayerCoordinate], // required
+	"style": LayerLineStyle,
+}
+```
+
+### LayerLineStyle
+
+```
+{
+	"color": String
+}
+```
+
+
+### LayerCoordinate
+
+```
+{
+	"lat": Number, // required
+	"lon": Number // required
+}
+```
+
 
 ### LayerSticker
 A `LayerSticker` is for displaying an image on the globe. It is created with a `stickerImage` URL and coordinates to the lower-left (`ll`) and upper-right (`ur`) corners of the image.
