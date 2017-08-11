@@ -1,1 +1,267 @@
-{"metadata":{"name":"Amazon Deforestation","author":"JSW","category":"Climate Change","summary":"10 Years After The World Embraced The \"Save The Rainforest\" Effort, Deforestation Is Back With A Vengeance ","description":"Driven by the world’s growing demand for soy and other crops, the ability to preserve biodiversity and fight climate change is being greatly diminished.","links":["https://www.nytimes.com/2017/02/24/business/energy-environment/deforestation-brazil-bolivia-south-america.html"],"cardImage":"https://s3.amazonaws.com/data.eartheos.com/images/0-lL4DKuevsdZnawl1.jpg"},"groups":[{"metadata":{"name":"Deforestation Continues"},"layers":[{"metadata":{"name":"Deforestation Continues"},"style":{"color":"#191970","icon":"fa-star"},"stickers":[{"stickerImage":"https://s3.amazonaws.com/data.eartheos.com/images/Deforestation_1.png","ll":{"lat":-6,"lon":-66},"ur":{"lat":-4,"lon":-64},"title":"Efforts to preserve biodiversity and fight climate change are failing, despite stated goals of “eliminating deforestation from the production of agricultural commodities by 2020.”","text":"Reports of deforestation have surfaced even though a deal signed by several companies included a target of “eliminating deforestation from the production of agricultural commodities like palm oil, soy and beef products by 2020.”","camera":{"height":0.02667613,"heading":0.01156,"tilt":0.00007237,"duration":17,"lat":-5.3,"lon":-65}}]}]},{"metadata":{"name":"Palm Oil"},"layers":[{"metadata":{"name":"Palm Oil Video","unit":"noUnit"},"style":{"color":"#191970"},"points":[{"title":"Palm Oil","lead":"Palm Oil","text":"Palm Oil","video":"https://interactive.guim.co.uk/boot/labs/niceandserious/palmoil/media/video/1280/intro.mp4","lat":-21.29,"lon":-64.5887,"camera":{"height":0.5,"heading":0.01156,"tilt":0.00007237,"duration":9,"lat":-21.64,"lon":-64.5887}}]}]},{"metadata":{"name":"Amazon Deteriorates"},"layers":[{"metadata":{"name":"Forest No More","unit":"noUnit"},"points":[{"title":"Between August 2015 and July 2016, nearly TWO MILLION acres were eliminated from the Amazon in Brazil.","lat":-14.29,"lon":-51.5887,"camera":{"height":0.5,"heading":0.01156,"tilt":0.00007237,"duration":12,"lat":-14.64,"lon":-51.5887}}]}]},{"metadata":{"name":"Bolivia Time Lapse"},"layers":[{"metadata":{"name":"webviewLayer","unit":"noUnit"},"style":{"color":"#191970","icon":"fa-star"},"points":[{"title":"In Bolivia, fewer restrictions on land clearance exist. As a result, deforestation also appears to be accelerating.","text":"On an annual basis, almost 865,000 acres of land have been deforested, according to Bolivia Documentation and Information Center. This constitutes an area similar to the size of Rhode Island. That figure has increased from over 350,000 acres a year, on average, in the 1990s to more than 650,000 acres a year in the 2000s.","video":"https://int.nyt.com/data/videotape/finished/2017/02/1487791531/bolivia-640x360-640w.mp4","key":"La Paz","lat":-14.64,"lon":-66.5887,"camera":{"height":0.5,"heading":-0.0089104,"tilt":0.00005,"duration":9,"lat":-22.64,"lon":-66.5887}}]}]},{"metadata":{"name":"Forest No More"},"layers":[{"metadata":{"name":"Forest No More","unit":"noUnit"},"points":[{"title":"Deforestation increased from approximately 1.2 million acres in 2015 to 1.5 million acres JUST ONE YEAR LATER, according to Brazil’s National Institute for Space Research.","lat":-14.29,"lon":-51.5887,"camera":{"height":0.5,"heading":0.01156,"tilt":0.00007237,"duration":12,"lat":-14.64,"lon":-51.5887}}]}]},{"metadata":{"name":"Disaster: Mocoa, Colombia"},"layers":[{"metadata":{"name":"vidLayer"},"points":[{"title":"Landslides in Colombia","lead":"WSJ Video","text":"One of the worst natural disasters in Colombia in recent years. Mocoa is surrounded by the three rivers in a natural basin created by the surrounding mountains. ","video":"https://m.wsj.net/video/20170402/040117colombia4/040117colombia4_v2_ec664k.mp4","key":"Mocoa","lat":1.1,"lon":-76.532,"camera":{"height":0.036823,"heading":-0.0089104,"tilt":0.00007237,"duration":15,"lat":0.8,"lon":-76.532}}]}]},{"metadata":{"name":"Rainforest Connection"},"layers":[{"metadata":{"name":"Rainforest Connection"},"points":[{"title":"These days, statistically speaking, when a tree falls in the forest, there's usually somebody there to hear it — the people that cut it down.","youtube":"C1ndRVdCRAc","key":"Amazon","lat":2.87,"lon":-65.874,"camera":{"height":0.2,"heading":0.01156,"tilt":0.007237,"lat":0.7,"lon":-65.82}}]}]},{"metadata":{"name":"Rainforests At Risk"},"layers":[{"metadata":{"name":"Nat Geo"},"points":[{"title":"These days, statistically speaking, when a tree falls in the forest, there's usually somebody there to hear it — the people that cut it down.","webURL":"http://www.nationalgeographic.com/environment/habitats/rain-forests/#/23897.jpg","key":"Amazon","lat":2.87,"lon":-65.874,"camera":{"height":0.2,"heading":0.01156,"tilt":0.007237,"lat":0.7,"lon":-65.82}}]}]}],"mapType":"light"}
+{
+   "metadata":{
+      "name":"Amazon Deforestation",
+      "author":"JSW",
+      "category":"Climate Change",
+      "summary":"10 Years After The World Embraced The \"Save The Rainforest\" Effort, Deforestation Is Back With A Vengeance ",
+      "description":"Driven by the world’s growing demand for soy and other crops, the ability to preserve biodiversity and fight climate change is being greatly diminished.",
+      "links":[
+         "https://www.nytimes.com/2017/02/24/business/energy-environment/deforestation-brazil-bolivia-south-america.html"
+      ],
+      "cardImage":"https://s3.amazonaws.com/data.eartheos.com/images/0-lL4DKuevsdZnawl1.jpg"
+   },
+   "groups":[
+      {
+         "metadata":{
+            "name":"Deforestation Continues"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Deforestation Continues"
+               },
+               "style":{
+                  "color":"#191970",
+                  "icon":"fa-star"
+               },
+               "stickers":[
+                  {
+                     "stickerImage":"https://s3.amazonaws.com/data.eartheos.com/images/Deforestation_1.png",
+                     "ll":{
+                        "lat":-6,
+                        "lon":-66
+                     },
+                     "ur":{
+                        "lat":-4,
+                        "lon":-64
+                     },
+                     "title":"Efforts to preserve biodiversity and fight climate change are failing, despite stated goals of “eliminating deforestation from the production of agricultural commodities by 2020.”",
+                     "text":"Reports of deforestation have surfaced even though a deal signed by several companies included a target of “eliminating deforestation from the production of agricultural commodities like palm oil, soy and beef products by 2020.”",
+                     "camera":{
+                        "height":0.02667613,
+                        "heading":0.01156,
+                        "tilt":0.00007237,
+                        "duration":17,
+                        "lat":-5.3,
+                        "lon":-65
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Palm Oil"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Palm Oil Video",
+                  "unit":"noUnit"
+               },
+               "style":{
+                  "color":"#191970"
+               },
+               "points":[
+                  {
+                     "title":"Palm Oil",
+                     "lead":"Palm Oil",
+                     "text":"Palm Oil",
+                     "video":"https://interactive.guim.co.uk/boot/labs/niceandserious/palmoil/media/video/1280/intro.mp4",
+                     "lat":-21.29,
+                     "lon":-64.5887,
+                     "camera":{
+                        "height":0.5,
+                        "heading":0.01156,
+                        "tilt":0.00007237,
+                        "duration":9,
+                        "lat":-21.64,
+                        "lon":-64.5887
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Amazon Deteriorates"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Forest No More",
+                  "unit":"noUnit"
+               },
+               "points":[
+                  {
+                     "title":"Between August 2015 and July 2016, nearly TWO MILLION acres were eliminated from the Amazon in Brazil.",
+                     "lat":-14.29,
+                     "lon":-51.5887,
+                     "camera":{
+                        "height":0.5,
+                        "heading":0.01156,
+                        "tilt":0.00007237,
+                        "duration":12,
+                        "lat":-14.64,
+                        "lon":-51.5887
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Bolivia Time Lapse"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"webviewLayer",
+                  "unit":"noUnit"
+               },
+               "style":{
+                  "color":"#191970",
+                  "icon":"fa-star"
+               },
+               "points":[
+                  {
+                     "title":"In Bolivia, fewer restrictions on land clearance exist. As a result, deforestation also appears to be accelerating.",
+                     "text":"On an annual basis, almost 865,000 acres of land have been deforested, according to Bolivia Documentation and Information Center. This constitutes an area similar to the size of Rhode Island. That figure has increased from over 350,000 acres a year, on average, in the 1990s to more than 650,000 acres a year in the 2000s.",
+                     "video":"https://int.nyt.com/data/videotape/finished/2017/02/1487791531/bolivia-640x360-640w.mp4",
+                     "key":"La Paz",
+                     "lat":-14.64,
+                     "lon":-66.5887,
+                     "camera":{
+                        "height":0.5,
+                        "heading":-0.0089104,
+                        "tilt":0.00005,
+                        "duration":9,
+                        "lat":-22.64,
+                        "lon":-66.5887
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Forest No More"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Forest No More",
+                  "unit":"noUnit"
+               },
+               "points":[
+                  {
+                     "title":"Deforestation increased from approximately 1.2 million acres in 2015 to 1.5 million acres JUST ONE YEAR LATER, according to Brazil’s National Institute for Space Research.",
+                     "lat":-14.29,
+                     "lon":-51.5887,
+                     "camera":{
+                        "height":0.5,
+                        "heading":0.01156,
+                        "tilt":0.00007237,
+                        "duration":12,
+                        "lat":-14.64,
+                        "lon":-51.5887
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Disaster: Mocoa, Colombia"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"vidLayer"
+               },
+               "points":[
+                  {
+                     "title":"Landslides in Colombia",
+                     "lead":"WSJ Video",
+                     "text":"One of the worst natural disasters in Colombia in recent years. Mocoa is surrounded by the three rivers in a natural basin created by the surrounding mountains. ",
+                     "video":"https://m.wsj.net/video/20170402/040117colombia4/040117colombia4_v2_ec664k.mp4",
+                     "key":"Mocoa",
+                     "lat":1.1,
+                     "lon":-76.532,
+                     "camera":{
+                        "height":0.036823,
+                        "heading":-0.0089104,
+                        "tilt":0.00007237,
+                        "duration":15,
+                        "lat":0.8,
+                        "lon":-76.532
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Rainforest Connection"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Rainforest Connection"
+               },
+               "points":[
+                  {
+                     "title":"These days, statistically speaking, when a tree falls in the forest, there's usually somebody there to hear it — the people that cut it down.",
+                     "youtube":"C1ndRVdCRAc",
+                     "key":"Amazon",
+                     "lat":2.87,
+                     "lon":-65.874,
+                     "camera":{
+                        "height":0.2,
+                        "heading":0.01156,
+                        "tilt":0.007237,
+                        "lat":0.7,
+                        "lon":-65.82
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Rainforests At Risk"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Nat Geo"
+               },
+               "points":[
+                  {
+                     "title":"These days, statistically speaking, when a tree falls in the forest, there's usually somebody there to hear it — the people that cut it down.",
+                     "webURL":"http://www.nationalgeographic.com/environment/habitats/rain-forests/#/23897.jpg",
+                     "key":"Amazon",
+                     "lat":2.87,
+                     "lon":-65.874,
+                     "camera":{
+                        "height":0.2,
+                        "heading":0.01156,
+                        "tilt":0.007237,
+                        "lat":0.7,
+                        "lon":-65.82
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "mapType":"light"
+}
