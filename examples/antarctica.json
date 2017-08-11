@@ -1,1 +1,124 @@
-{"metadata":{"name":"McMurdo Station, Antarctica","author":"John Newson","category":"Climate Change","summary":"The largest outpost in Antarctica","description":"The station owes its designation to nearby McMurdo Sound, named after Lieutenant Archibald McMurdo of HMS Terror, which first charted the area in 1841 under the command of British explorer James Clark Ross. British explorer Robert Falcon Scott first established a base close to this spot in 1902 and built Discovery Hut, still standing adjacent to the harbour at Hut Point. The volcanic rock of the site is the southernmost bare ground accessible by ship in the Antarctic. The United States officially opened its first station at McMurdo on February 16, 1956. Founders initially called the station Naval Air Facility McMurdo. On November 28, 1957, Admiral George J. Dufek was present with a U.S. congressional delegation during a change of command ceremony.\n\nMcMurdo became the center of scientific and logistical operation during the International Geophysical Year, an international scientific effort that lasted from July 1, 1957, to December 31, 1958. The Antarctic Treaty, now signed by over forty-five governments, regulates intergovernmental relations with respect to Antarctica and governs the conduct of daily life at McMurdo for United States Antarctic Program (U.S.A.P.) participants. The Antarctic Treaty and related agreements, collectively called the Antarctic Treaty System (ATS), was opened for signature on December 1, 1959, and officially entered into force on June 23, 1961.\n\nThe first scientific diving protocols were established before 1960 and the first diving operations were documented in November 1961.","cardImage":"https://s3.amazonaws.com/data.eartheos.com/images/antarctica.png"},"groups":[{"metadata":{"name":"Ross Island "},"layers":[{"metadata":{"name":"Ross Island","unit":"noUnit"},"points":[{"title":"Ross Island is the home of McMurdo Station, a United States Antarctic research center located on the southern tip of Antarctica.","audioURL":"https://s3.amazonaws.com/data.eartheos.com/uploads/antarctica2_audio.m4a","lat":-77.8499966,"lon":166.666664,"camera":{"height":1,"heading":-2.76,"duration":15,"lat":-78.1886,"lon":-170.655}}]}]},{"metadata":{"name":"McMurdo Station"},"layers":[{"metadata":{"name":"Zoom","unit":"noUnit"},"points":[{"title":"McMurdo Station is Antarctica's largest community. It includes a functional, modern-day science station, a harbor, three airfields with a heliport and more than 100 buildings","lat":-77.8499966,"lon":166.666664,"camera":{"height":0.03674,"heading":-1.063,"duration":15,"lat":-77.8499966,"lon":167.51}}]}]},{"metadata":{"name":"360 Panoramic"},"layers":[{"metadata":{"name":"Panoramic","unit":"noUnit"},"points":[{"title":"Panoramic","youtube":"-v2uF5CF6Tg","key":"Antarctica","lat":-77.8499966,"lon":166.666664,"camera":{"height":0.0367,"heading":-1.06,"duration":15,"lat":-77.85,"lon":167.51}}]}]},{"metadata":{"name":"Two Weeks on Ice"},"layers":[{"metadata":{"name":"Two Weeks on Ice","unit":"noUnit"},"points":[{"title":"McMurdo Station, Antarctica","webURL":"https://www.nytimes.com/interactive/2017/07/19/climate/100000005270789.mobile.html","key":"Antarctica","lat":-77.8499966,"lon":166.666664,"camera":{"lat":-75.8499966,"lon":168.666664}}]}]}],"mapType":"satelliteHybrid","devTools":false}
+{
+   "metadata":{
+      "name":"McMurdo Station, Antarctica",
+      "author":"John Newson",
+      "category":"Climate Change",
+      "summary":"The largest outpost in Antarctica",
+      "description":"The station owes its designation to nearby McMurdo Sound, named after Lieutenant Archibald McMurdo of HMS Terror, which first charted the area in 1841 under the command of British explorer James Clark Ross. British explorer Robert Falcon Scott first established a base close to this spot in 1902 and built Discovery Hut, still standing adjacent to the harbour at Hut Point. The volcanic rock of the site is the southernmost bare ground accessible by ship in the Antarctic. The United States officially opened its first station at McMurdo on February 16, 1956. Founders initially called the station Naval Air Facility McMurdo. On November 28, 1957, Admiral George J. Dufek was present with a U.S. congressional delegation during a change of command ceremony.\n\nMcMurdo became the center of scientific and logistical operation during the International Geophysical Year, an international scientific effort that lasted from July 1, 1957, to December 31, 1958. The Antarctic Treaty, now signed by over forty-five governments, regulates intergovernmental relations with respect to Antarctica and governs the conduct of daily life at McMurdo for United States Antarctic Program (U.S.A.P.) participants. The Antarctic Treaty and related agreements, collectively called the Antarctic Treaty System (ATS), was opened for signature on December 1, 1959, and officially entered into force on June 23, 1961.\n\nThe first scientific diving protocols were established before 1960 and the first diving operations were documented in November 1961.",
+      "cardImage":"https://s3.amazonaws.com/data.eartheos.com/images/antarctica.png"
+   },
+   "groups":[
+      {
+         "metadata":{
+            "name":"Ross Island "
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Ross Island",
+                  "unit":"noUnit"
+               },
+               "points":[
+                  {
+                     "title":"Ross Island is the home of McMurdo Station, a United States Antarctic research center located on the southern tip of Antarctica.",
+                     "audioURL":"https://s3.amazonaws.com/data.eartheos.com/uploads/antarctica2_audio.m4a",
+                     "lat":-77.8499966,
+                     "lon":166.666664,
+                     "camera":{
+                        "height":1,
+                        "heading":-2.76,
+                        "duration":15,
+                        "lat":-78.1886,
+                        "lon":-170.655
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"McMurdo Station"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Zoom",
+                  "unit":"noUnit"
+               },
+               "points":[
+                  {
+                     "title":"McMurdo Station is Antarctica's largest community. It includes a functional, modern-day science station, a harbor, three airfields with a heliport and more than 100 buildings",
+                     "lat":-77.8499966,
+                     "lon":166.666664,
+                     "camera":{
+                        "height":0.03674,
+                        "heading":-1.063,
+                        "duration":15,
+                        "lat":-77.8499966,
+                        "lon":167.51
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"360 Panoramic"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Panoramic",
+                  "unit":"noUnit"
+               },
+               "points":[
+                  {
+                     "title":"Panoramic",
+                     "youtube":"-v2uF5CF6Tg",
+                     "key":"Antarctica",
+                     "lat":-77.8499966,
+                     "lon":166.666664,
+                     "camera":{
+                        "height":0.0367,
+                        "heading":-1.06,
+                        "duration":15,
+                        "lat":-77.85,
+                        "lon":167.51
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Two Weeks on Ice"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Two Weeks on Ice",
+                  "unit":"noUnit"
+               },
+               "points":[
+                  {
+                     "title":"McMurdo Station, Antarctica",
+                     "webURL":"https://www.nytimes.com/interactive/2017/07/19/climate/100000005270789.mobile.html",
+                     "key":"Antarctica",
+                     "lat":-77.8499966,
+                     "lon":166.666664,
+                     "camera":{
+                        "lat":-75.8499966,
+                        "lon":168.666664
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "mapType":"satelliteHybrid",
+   "devTools":false
+}
