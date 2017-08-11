@@ -1,1 +1,54 @@
-{"mapType": "satelliteHybrid", "groups": [{"layers": [{"style": {"color": "#191970", "icon": "fa-star"}, "points": [{"name": "IntroPt", "lead": "An animated data-driven documentary about war and peace, The Fallen of World War II looks at the human cost of the second World War and sizes up the numbers to other wars in history, including trends in recent conflicts.", "text": "Washington, DC", "lon": -77.009, "youtube": "DwKPFT-RioU", "camera": {"duration": 8, "lat": 38.907, "lon": -77.009, "heading": 0.22, "height": 0.3}, "lat": 38.907}], "metadata": {"name": "IntroLayer", "unit": "noUnit"}}], "metadata": {"name": "Introduction"}}], "metadata": {"category": "Conflict", "sources": ["http://twitter.com/neilhalloran"], "name": "WWII: The Fallen", "links": ["http://twitter.com/Dolhaz", "http://www.fallen.io/"], "author": "Neil Halloran", "cardImage": "http://www.cartoonbrew.com/wp-content/uploads/2015/06/fallenofworldwarii-1280x600.jpg", "description": "The Fallen of World War II looks at the human cost of the second World War and sizes up the numbers to other wars in history, including trends in recent conflicts. Sounds and music by http://twitter.com/Dolhaz", "summary": "An animated data-driven documentary about war and peace."}}
+{
+   "mapType":"satelliteHybrid",
+   "groups":[
+      {
+         "layers":[
+            {
+               "style":{
+                  "color":"#191970",
+                  "icon":"fa-star"
+               },
+               "points":[
+                  {
+                     "name":"IntroPt",
+                     "lead":"An animated data-driven documentary about war and peace, The Fallen of World War II looks at the human cost of the second World War and sizes up the numbers to other wars in history, including trends in recent conflicts.",
+                     "text":"Washington, DC",
+                     "lon":-77.009,
+                     "youtube":"DwKPFT-RioU",
+                     "camera":{
+                        "duration":8,
+                        "lat":38.907,
+                        "lon":-77.009,
+                        "heading":0.22,
+                        "height":0.3
+                     },
+                     "lat":38.907
+                  }
+               ],
+               "metadata":{
+                  "name":"IntroLayer",
+                  "unit":"noUnit"
+               }
+            }
+         ],
+         "metadata":{
+            "name":"Introduction"
+         }
+      }
+   ],
+   "metadata":{
+      "category":"Conflict",
+      "sources":[
+         "http://twitter.com/neilhalloran"
+      ],
+      "name":"WWII: The Fallen",
+      "links":[
+         "http://twitter.com/Dolhaz",
+         "http://www.fallen.io/"
+      ],
+      "author":"Neil Halloran",
+      "cardImage":"http://www.cartoonbrew.com/wp-content/uploads/2015/06/fallenofworldwarii-1280x600.jpg",
+      "description":"The Fallen of World War II looks at the human cost of the second World War and sizes up the numbers to other wars in history, including trends in recent conflicts. Sounds and music by http://twitter.com/Dolhaz",
+      "summary":"An animated data-driven documentary about war and peace."
+   }
+}
