@@ -357,6 +357,9 @@
                     "items": {
                         "$ref": "#/definitions/Chart"
                     }
+                },
+                "autoPlays": {
+                    "type": "boolean"
                 }
             }
         },
@@ -431,6 +434,9 @@
                     "items": {
                         "$ref": "#/definitions/Chart"
                     }
+                },
+                "autoPlays": {
+                    "type": "boolean"
                 }
             }
         },
@@ -499,6 +505,9 @@
                     "items": {
                         "$ref": "#/definitions/Chart"
                     }
+                },
+                "autoPlays": {
+                    "type": "boolean"
                 }
             }
         },
@@ -554,6 +563,9 @@
                     "items": {
                         "$ref": "#/definitions/Chart"
                     }
+                },
+                "autoPlays": {
+                    "type": "boolean"
                 }
             }
         },

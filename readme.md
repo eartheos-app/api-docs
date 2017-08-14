@@ -292,7 +292,8 @@ We help with the displaying of overlapping points:
 	"lon": Number, // required (if key undefined)
 	"style": LayerPointStyle,
 	"camera": Camera,
-	"charts": [Chart]
+	"charts": [Chart],
+	"autoPlays": Bool // true by default
 }
 ```
 
@@ -338,7 +339,8 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"bounds": [[Float]], // required (if key undefined)
 	"style": LayerPolygonStyle,
 	"camera": Camera,
-	"charts": [Chart]
+	"charts": [Chart],
+	"autoPlays": Bool // true by default
 }
 ```
 
@@ -354,7 +356,8 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"value": Number,
 	"bounds": [[68.935,-48.625],[69.58,-48.94],[70.525,-49.065],[70.56,-49.255],[70.28,-49.71],[68.745,-49.775],[68.72,-49.2425],[68.8675,-48.83],[68.935,-48.625]],
 	"style": LayerPolygonStyle,
-	"camera": Camera
+	"camera": Camera,
+	"autoPlays": Bool // true by default
 }
 ```
 
@@ -416,7 +419,8 @@ A `LayerSticker` is for displaying an image on the globe. It is created with a `
 	"videoEnd": Number,
 	"webURL": String,
 	"url": String,
-	"camera": Camera
+	"camera": Camera,
+	"autoPlays": Bool // true by default
 }
 ```
 
