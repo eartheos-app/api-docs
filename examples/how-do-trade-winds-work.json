@@ -1,0 +1,120 @@
+{
+   "metadata":{
+      "name":"Earth's Trade Winds",
+      "author":"Al Barton",
+      "category":"Planet Earth",
+      "summary":"The Hadley Cell, named after George Hadley, creates our tropical atmospheric circulation.",
+      "description":"The major driving force of atmospheric circulation is solar heating, which is greatest near the equator and lesser at the poles. The atmospheric circulation transports energy polewards, thus reducing the resulting equator-to-pole temperature gradient. The mechanisms by which this is accomplished differs in tropical and extratropical latitudes.\n\nHadley cells exist on either side of the equator. Each cell encircles the globe and acts to transport energy from the equator to 30th latitude. This circulation is the result of the buoyancy of warm air rising from the equator to the tropopause.",
+      "cardImage":"https://s3.amazonaws.com/data.eartheos.com/images/minuteearth.jpg"
+   },
+   "groups":[
+      {
+         "metadata":{
+            "name":"Trade Winds"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Minute Earth"
+               },
+               "points":[
+                  {
+                     "title":"In the 18th century, an amateur meteorologist was dissatisfied with the existing theories explaining the Earth's trade winds...",
+                     "camera":{
+                        "tilt":-0.2,
+                        "duration":9,
+                        "lat":5,
+                        "lon":90
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"MinuteEarth"
+         },
+         "layers":[
+            {
+               "points":[
+                  {
+                     "title":"Deserts",
+                     "youtube":"T6Us1sPXBfA",
+                     "videoStart":0,
+                     "videoEnd":127,
+                     "lat":0,
+                     "lon":90,
+                     "camera":{
+                        "height":0.9,
+                        "heading":0.01156,
+                        "tilt":-0.2,
+                        "duration":4,
+                        "lat":0,
+                        "lon":90
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Hadley Cells"
+         },
+         "layers":[
+            {
+               "metadata":{
+                  "name":"Minute Earth"
+               },
+               "stickers":[
+                  {
+                     "stickerImage":"https://s3.amazonaws.com/data.eartheos.com/images/globe_hadleycell.png",
+                     "ll":{
+                        "lat":-10,
+                        "lon":90
+                     },
+                     "ur":{
+                        "lat":70,
+                        "lon":225
+                     },
+                     "camera":{
+                        "height":0.95,
+                        "tilt":-0.2,
+                        "duration":10,
+                        "lat":30,
+                        "lon":160
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "metadata":{
+            "name":"Cloud Simulation"
+         },
+         "layers":[
+            {
+               "points":[
+                  {
+                     "title":"Deserts",
+                     "webURL":"https://s3.amazonaws.com/data.eartheos.com/images/geos5_eartheos.m4v",
+                     "lat":0,
+                     "lon":90,
+                     "camera":{
+                        "height":0.9,
+                        "heading":0.01156,
+                        "tilt":0.00007237,
+                        "duration":4,
+                        "lat":0,
+                        "lon":90
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "mapType":"satelliteHybrid"
+}
