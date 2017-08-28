@@ -67,7 +67,8 @@ The `devTools` property will turn on a couple tools to help you build an Eartheo
 	"groups": [LayerGroup],
 	"charts": [Chart],
 	"key": [CategoryKeyItem | ValueKeyItem], // required
-	"mapType": String
+	"mapType": String,
+	"usesLargeMarkers": Boolean // default is false
 }
 ```
 
@@ -415,6 +416,7 @@ A `LayerSticker` is for displaying an image on the globe. It is created with a `
 	"lead": String,
 	"text": String,
 	"video": String,
+    "audioURL": String,
 	"videoStart": Number,
 	"videoEnd": Number,
 	"webURL": String,

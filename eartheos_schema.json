@@ -59,6 +59,9 @@
         "devTools": {
             "type": "boolean"
         },
+        "usesLargeMarkers": {
+            "type": "boolean"
+        },
         "scaleDomain": {
             "type": "array",
             "items": {
@@ -543,6 +546,9 @@
                 },
                 "lon": {
                     "type": "number"
+                },
+                "audioURL": {
+                    "type": "string"
                 },
                 "style": {
                     "type": "object",
