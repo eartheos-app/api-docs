@@ -338,6 +338,7 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 	"value": Number,
 	"key": String, // required (if bounds undefined)
 	"bounds": [[Float]], // required (if key undefined)
+	"lonFirst": Bool, // false by default (latitude is first in bounds coordinates)
 	"style": LayerPolygonStyle,
 	"camera": Camera,
 	"charts": [Chart],
