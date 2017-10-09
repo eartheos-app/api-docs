@@ -1,4 +1,4 @@
-Eartheos includes Geo.JSON for the following regions. This allows you to use a key instead of providing an array of coordinates to delineate a region.
+#Eartheos includes Geo.JSON for the following regions. This allows you to use a key instead of providing an array of coordinates to delineate a region.
 To use them, use one of these names as the `key` of your `LayerPolygon`.
 
 ##Countries:
