@@ -362,6 +362,33 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 }
 ```
 
+### LayerMultiPolygon
+`LayerMultiPolygon` makes it easier to directly use GeoJSON coordinate arrays in Eartheos.
+
+**Example:** Below is a simple `Collection` example with a single `LayerMultiPolygon`. `lonFirst` determines if longitude values are listed before latitude values. This is false by default - the opposite of GeoJSON standard.
+
+```
+{
+		"layers": [
+		{
+			"multiPolygons": [
+				{
+					"lonFirst": true,
+					"coordinates": [
+						[[-73.99, 40.73], [-73.99, 40.73]...],
+						[[-73.98, 40.76], [-73.97, 40.76]...]
+					],
+					"style": {
+						"color": "orange"
+					},
+					"title": "Here's A MultiPolygon",
+					"text": "Enjoy Eartheos MultiPolygons today!"
+				}
+			]
+		}
+}
+```
+
 ### LayerPolygonStyle
 
 ```

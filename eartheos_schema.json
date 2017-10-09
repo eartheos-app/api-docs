@@ -275,6 +275,12 @@
                         "$ref": "#/definitions/LayerPolygon"
                     }
                 },
+                "multiPolygons": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/LayerMultiPolygon"
+                    }
+                },
                 "lines": {
                     "type": "array",
                     "items": {
@@ -412,11 +418,100 @@
                 "key": {
                     "type": "string"
                 },
-                "lat": {
+                "lonFirst": {
+                    "type": "boolean"
+                },
+                "coordinates": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": { 
+                            "type": "number"
+                        }
+                    }
+                },
+                "style": {
+                    "type": "object",
+                    "properties": {
+                        "color": {
+                            "type": "string"
+                        },
+                        "icon": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "camera": {
+                    "$ref": "#/definitions/Camera"
+                },
+                "charts": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Chart"
+                    }
+                },
+                "autoPlays": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "LayerMultiPolygon": {
+            "type": "object",
+            "required": [
+                "title"
+            ],
+            "properties": {
+                "lonFirst": {
+                    "type": "boolean"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "lead": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "audioURL": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "video": {
+                    "type": "string"
+                },
+                "youtube": {
+                    "description": "Youtube ID",
+                    "type": "string"
+                },
+                "videoStart": {
                     "type": "number"
                 },
-                "lon": {
+                "videoEnd": {
                     "type": "number"
+                },
+                "webURL": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "number"
+                },
+                "coordinates": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": { 
+                            "type": "array",
+                            "items": { 
+                                "type": "number"
+                            }
+                        }
+                    }
                 },
                 "style": {
                     "type": "object",
