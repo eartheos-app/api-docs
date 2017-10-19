@@ -199,6 +199,7 @@ Currently, there are two supported `Chart` types:
 | :-----------: |:-------------:| :----:  |
 | `bar` | Currently, no limit exists on the number of categories you can represent under the `data` field. Enjoy `bar` responsibly. | ![alt tag](./assets/graph-bar.png) |
 | `pie` | Automatically calculates percentages based on the data passed. Only pass one number in each array under the `data` field. | ![alt tag](./assets/graph-pie.png) |
+| `line` | Only pass one number in each array under the `data` field. | ![alt tag](./assets/graph-line.png) |
 
 These charts appear in the "more info" section of your dataset.
 
@@ -303,11 +304,13 @@ We help with the displaying of overlapping points:
 ```
 {
 	"color": String,
-	"icon": String
+	"icon": String // Read more about Marker Icons in the next section
 }
 ```
 
-**Note:** values for the `icon` field in this structure come from [FontAwesome](http://fontawesome.io/icons/) and are prefixed with `fa`. For example: 
+#### 📍 Marker Icons
+
+Values for the `icon` field in this structure and other style objects come from [FontAwesome](http://fontawesome.io/icons/) and are prefixed with `fa`. For example: 
 
 ```
 { 
@@ -347,6 +350,12 @@ will render [this](http://fontawesome.io/icon/cubes/) icon.
 ```
 
 **Example:** If you would like to display a polygon that is not [included](./included_regions.md) then you can use a custom polygon as shown below.
+
+#### Custom Polygon Example
+
+The following is an example of creating a polygon with geographic latitude and longitude values via the `bounds` property. A `lonFirst` value can be set to true to specify that longitude values are first in the array (default is false).
+
+For more than simple, single-loop, polygons and easier transfer from GeoJSON check out `LayerMultiPolygon`.
 
 ```
 {
