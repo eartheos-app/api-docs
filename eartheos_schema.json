@@ -183,7 +183,8 @@
                     "type": "string",
                     "enum": [
                         "pie",
-                        "bar"
+                        "bar",
+                        "line"
                     ]
                 },
                 "summary": {
