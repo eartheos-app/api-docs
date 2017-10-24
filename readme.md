@@ -249,7 +249,6 @@ If a `Group` has metadata then it will be displayed when the timeline stops at t
 	"videoStart": Number,
 	"videoEnd": Number,
 	"webURL": String,	
-	"key": String, // required (if lat/lon undefined)
 	"camera": Camera,
 	"charts": [Chart],
 	"autoPlays": Bool // true by default
