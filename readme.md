@@ -205,7 +205,7 @@ These charts appear in the "more info" section of your dataset.
 
 ## Visualizations
 
-Currently there are four supported visualisation types:
+Currently there are six supported visualisation types:
 
 | Type    | Notes   | Preview |
 | :-----------: |:-------------:| :----:  |
