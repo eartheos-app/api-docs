@@ -234,9 +234,25 @@ We help with the displaying of overlapping points:
 
 ### LayerGroupMetadata
 
+If a `Group` has metadata then it will be displayed when the timeline stops at that group. If a group does not have metadata, Eartheos will look for a featured point for metadata. If neither are present then no annotation will be displayed.
+
 ```
 {
 	"name": String  // required, must be unique to all LayerGroup in a Collection
+	"lead": String,
+	"text": String,
+	"image": String,
+	"url": String,
+	"audioURL": String,
+	"video": String,
+	"youtube": String,
+	"videoStart": Number,
+	"videoEnd": Number,
+	"webURL": String,	
+	"key": String, // required (if lat/lon undefined)
+	"camera": Camera,
+	"charts": [Chart],
+	"autoPlays": Bool // true by default
 }
 ```
 
