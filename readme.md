@@ -203,7 +203,7 @@ Currently, there are two supported `Chart` types:
 
 These charts appear in the "more info" section of your dataset.
 
-## Visualisations
+## Visualizations
 
 Currently there are four supported visualisation types:
 
@@ -213,6 +213,8 @@ Currently there are four supported visualisation types:
 | `point` | These are markers on the map. Their appearance is controlled with a `color` and an `icon`. | ![example point](./assets/points.PNG) |
 | `polygon + value` | This is a `region` accompanied by a `value`. The color of each region is determined by the `value` and the `scale`. | ![example region with value](./assets/region_value.PNG) |
 | `point + value` | This is a `point` accompanied by a `value`. This becomes a cylinder on the globe whose height represents its `value`. They can have any `color`. | ![example point with value](./assets/point_value.PNG) |
+| `Stickers` | An image stuck onto the globe that scales with zoom level. | ![example sticker on the globe](./assets/sticker.PNG) |
+| `Dashed Line` | Dashed lines can be added to the globe in any `color`. | ![example dashed line on globe](./assets/dashedline.PNG) |
 
 We help with the displaying of overlapping points:
 
