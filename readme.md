@@ -527,3 +527,13 @@ Annotations can hold one of the following: an image (`image`), a video (`video`)
 
 When playing YouTube videos, `videoStart` and `videoEnd` properties can be supplied to determine at what time (in seconds) the video starts and ends.
 
+# Examples
+
+| Example    | Features   | Preview |
+| :-----------: |:-------------:| :----:  |
+| [Rhino](./examples/rhino-poaching.json), [Syria](./examples/syrian-conflict.json), and [Global Nukes](./examples/global-nuclear-arsenal.json) | stickers | ![example sticker](./assets/sticker_small.png) |
+| [Polity](./examples/polity.json) and [Rhino](./examples/rhino-poaching.json) | shaded polygons | ![example shaded regions](./assets/region_value_small.png) |
+| [Rhino](./examples/rhino-poaching.json) | bar charts | ![example bar chart](./assets/rhino_bar_chart.jpeg) |
+| [Rhino](./examples/rhino-poaching.json) and [Dunkirk](./examples/wwii_fallen.json) | audio and stickers | ![example sticker](./assets/sticker_small.png) |
+| [Global Nukes](./examples/global-nuclear-arsenal.json) | line charts and audio | ![example line chart](./assets/line_chart.png) |
+| [McMurdo Station](./examples/antarctica.json) | audio, YouTube video, web URL | ![example youtube video](./assets/example_youtube.jpeg) |
