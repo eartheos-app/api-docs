@@ -13,13 +13,13 @@ Once your JSON file is saved in the Eartheos cloud they can be opened in the Ear
 
 ## JSON Examples
 
-We **strongly** recommend analyzing the following collection examples below for more context. These examples currently appear within the Eartheos App as live Eartheos Stories. You can import one of these JSON examples listed below into the template we provided above to see how it is structured:
+We **strongly** recommend analyzing the following collection examples [here](./examples/) and a few are listed just below for more context. These examples currently appear within the Eartheos App as live Eartheos Stories. You can import one of these JSON examples listed below into the template we provided above to see how it is structured:
 
 * [Polity](./examples/polity.json)
 * [E-Waste](./examples/e-waste.json)
 * [Lake Poopo Climate Change Timeline](./examples/stories_example.json)
-* [WWII](./examples/rhino_viz_zoom.json)
-* [Rhino](./examples/wwii_fallen.json)
+* [WWII](./examples/wwii_fallen.json)
+* [Rhino](./examples/rhino_viz_zoom.json)
 
 ## JSON Validation
 
