@@ -1,1 +1,72 @@
-{"metadata":{"name":"Spacecraft ISEE-3","author":"Elan B","category":"Science and Space","summary":"The International Sun-Earth Explorer-3 (ISEE-3) was launched August 12, 1978 to study Earth's magnetic field and solar wind.","description":"Sometime after NASA's interest in the ICE waned, others realized that the spacecraft might be steered to pass close to another comet. A team of engineers, programmers, and scientists began to study the feasibility and challenges involved.","cardImage":"https://s3.amazonaws.com/eartheos-media/isee-3-3.jpg"},"groups":[{"metadata":{"name":"Reboot"},"layers":[{"metadata":{"name":"Spacecraft ISEE-3"},"style":{"color":"#191970","icon":"fa-star"},"points":[{"title":"In April 2014, the ISEE-3 Reboot Project members formally announced their intentions to \"recapture\" this spacecraft for use, calling the effort the ISEE-3 Reboot Project. ","lead":null,"image":"https://www.nasa.gov/sites/default/files/styles/673xvariable_height/public/isee-3_0.jpeg?itok=f05gRFAy","audioURL":"https://s3.amazonaws.com/data.eartheos.com/images/isee-sounds.m4a","key":"Mountain View","lat":37.4089,"lon":-122.0644,"camera":{"height":0.528874,"heading":0.132,"lat":27.6147,"lon":-112.386},"autoPlays":false}]}]},{"metadata":{"name":"Spacecraft For All"},"layers":[{"metadata":{"name":"webviewLayer"},"style":{"color":"#191970","icon":"fa-star"},"points":[{"title":"Space ","lead":null,"webURL":"https://player.vimeo.com/video/103521112","key":"Mountain View","lat":37.4089,"lon":-122.064,"camera":{"height":0.01,"heading":0.01156,"tilt":0.00007237,"duration":4,"lat":38.06,"lon":0.00007237},"autoPlays":true}]}]}],"mapType":"satelliteHybrid","devTools":false}
+{
+	"metadata": {
+		"name": "Spacecraft ISEE-3",
+		"author": "Elan B",
+		"category": "Science and Space",
+		"summary": "The International Sun-Earth Explorer-3 (ISEE-3) was launched August 12, 1978 to study Earth's magnetic field and solar wind.",
+		"description": "Sometime after NASA's interest in the ICE waned, others realized that the spacecraft might be steered to pass close to another comet. A team of engineers, programmers, and scientists began to study the feasibility and challenges involved.",
+		"cardImage": "https://s3.amazonaws.com/eartheos-media/isee-3-3.jpg"
+	},
+	"groups": [{
+		"metadata": {
+			"name": "Reboot"
+		},
+		"layers": [{
+			"metadata": {
+				"name": "Spacecraft ISEE-3"
+			},
+			"style": {
+				"color": "#191970",
+				"icon": "fa-star"
+			},
+			"points": [{
+				"title": "In April 2014, the ISEE-3 Reboot Project members formally announced their intentions to \"recapture\" this spacecraft for use, calling the effort the ISEE-3 Reboot Project. ",
+				"lead": null,
+				"image": "https://www.nasa.gov/sites/default/files/styles/673xvariable_height/public/isee-3_0.jpeg?itok=f05gRFAy",
+				"audioURL": "https://s3.amazonaws.com/data.eartheos.com/images/isee-sounds.m4a",
+				"key": "Mountain View",
+				"lat": 37.4089,
+				"lon": -122.0644,
+				"camera": {
+					"height": 0.528874,
+					"heading": 0.132,
+					"lat": 27.6147,
+					"lon": -112.386
+				},
+				"autoPlays": false
+			}]
+		}]
+	}, {
+		"metadata": {
+			"name": "Spacecraft For All"
+		},
+		"layers": [{
+			"metadata": {
+				"name": "webviewLayer"
+			},
+			"style": {
+				"color": "#191970",
+				"icon": "fa-star"
+			},
+			"points": [{
+				"title": "Space ",
+				"lead": null,
+				"webURL": "https://player.vimeo.com/video/103521112",
+				"key": "Mountain View",
+				"lat": 37.4089,
+				"lon": -122.064,
+				"camera": {
+					"height": 0.01,
+					"heading": 0.01156,
+					"tilt": 0.00007237,
+					"duration": 4,
+					"lat": 38.06,
+					"lon": 0.00007237
+				},
+				"autoPlays": true
+			}]
+		}]
+	}],
+	"mapType": "satelliteHybrid",
+	"devTools": false
+}
