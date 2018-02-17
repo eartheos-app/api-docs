@@ -13,7 +13,7 @@ Once your JSON file is saved in the Eartheos cloud they can be opened in the Ear
 
 ## JSON Examples
 
-We **strongly** recommend analyzing the following collection examples [here](./examples/) and a few are listed just below for more context. These examples currently appear within the Eartheos App as live Eartheos Stories. You can import one of these JSON examples listed below into the template we provided above to see how it is structured:
+We **strongly** recommend analyzing the following collection examples [here](./examples) and a few are listed just below for more context. These examples currently appear within the Eartheos App as live Eartheos Stories. You can import one of these JSON examples listed below into the template we provided above to see how it is structured:
 
 * [Polity](./examples/polity.json)
 * [E-Waste](./examples/e-waste.json)
@@ -193,7 +193,7 @@ For example, the following `ValueKeyItem` renders the following scale:
 }
 ```
 
-Currently, there are two supported `Chart` types:
+Currently, there are three supported `Chart` types:
 
 | Type    | Notes   | Preview |
 | :-----------: |:-------------:| :----:  |
@@ -527,7 +527,7 @@ Annotations can hold one of the following: an image (`image`), a video (`video`)
 
 When playing YouTube videos, `videoStart` and `videoEnd` properties can be supplied to determine at what time (in seconds) the video starts and ends.
 
-# Examples
+# Example JSON Stories
 
 | Example    | Features   | Preview |
 | :-----------: |:-------------:| :----:  |
@@ -537,3 +537,4 @@ When playing YouTube videos, `videoStart` and `videoEnd` properties can be suppl
 | [Rhino](./examples/rhino-poaching.json) and [Dunkirk](./examples/wwii_fallen.json) | audio and stickers | ![example sticker](./assets/sticker_small.png) |
 | [Global Nukes](./examples/global-nuclear-arsenal.json) | line charts and audio | ![example line chart](./assets/line_chart.png) |
 | [McMurdo Station](./examples/antarctica.json) | audio, YouTube video, web URL | ![example youtube video](./assets/example_youtube.jpeg) |
+| [#Run4Water](./examples/antarctica.json) | Layerline | ![example layerline](./assets/run4water.png) |
