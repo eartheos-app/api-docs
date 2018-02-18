@@ -537,4 +537,4 @@ When playing YouTube videos, `videoStart` and `videoEnd` properties can be suppl
 | [Rhino](./examples/rhino-poaching.json) and [Dunkirk](./examples/wwii_fallen.json) | audio and stickers | ![example sticker](./assets/sticker_small.png) |
 | [Global Nukes](./examples/global-nuclear-arsenal.json) | line charts and audio | ![example line chart](./assets/line_chart.png) |
 | [McMurdo Station](./examples/antarctica.json) | audio, YouTube video, web URL | ![example youtube video](./assets/example_youtube.jpeg) |
-| [#Run4Water](./examples/antarctica.json) | Layerline | ![example layerline](./assets/run4water.png) |
+| [#Run4Water](./examples/run4water.json) | Layerline | ![example layerline](./assets/run4water.png) |
